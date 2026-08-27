@@ -4,7 +4,7 @@
   <title>Organizations</title>
   <defs>
     <linearGradient id="grad-bg" x1="0.85" y1="0.15" x2="0.15" y2="0.85" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#111517"/><stop offset="50%" stop-color="#182127"/><stop offset="100%" stop-color="#1d191b"/>
+      <stop offset="0%" stop-color="#111517"/><stop offset="50%" stop-color="#182127"/><stop offset="100%" stop-color="#161b22"/>
       <animateTransform
         attributeName="gradientTransform"
         type="rotate"
@@ -14,7 +14,7 @@
       />
     </linearGradient>
     <linearGradient id="grad-accent" x1="0.5" y1="0" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#6cace0"/><stop offset="50%" stop-color="#d65c5c"/><stop offset="100%" stop-color="#7ecb4d"/>
+      <stop offset="0%" stop-color="#6cace0"/><stop offset="50%" stop-color="#5c74d6"/><stop offset="100%" stop-color="#864dcb"/>
       <animateTransform
         attributeName="gradientTransform"
         type="rotate"
@@ -24,7 +24,7 @@
       />
     </linearGradient>
     <linearGradient id="grad-chart" x1="0.5" y1="0" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#6cace0" stop-opacity="0.9"/><stop offset="100%" stop-color="#d65c5c" stop-opacity="0.7"/>
+      <stop offset="0%" stop-color="#6cace0" stop-opacity="0.9"/><stop offset="100%" stop-color="#5c74d6" stop-opacity="0.7"/>
     </linearGradient>
     <radialGradient id="grad-glow" cx="0.5" cy="0.5" r="0.6" gradientUnits="objectBoundingBox">
       <stop offset="0%" stop-color="#6cace0" stop-opacity="0.3"/><stop offset="100%" stop-color="#6cace0" stop-opacity="0"/>
@@ -66,7 +66,7 @@
       stroke="url(#grad-accent)" stroke-width="1" opacity="0.5"/>
     
     <g id="title-section" opacity="0">
-      <text x="20" y="36" font-size="18" dominant-baseline="middle">⊞</text><text x="42" y="36" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start" dominant-baseline="middle" letter-spacing="0.5">Organizations</text><text x="42" y="50" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle" opacity="0.8">Member of 2 organizations</text>
+      <text x="20" y="36" font-size="18" dominant-baseline="middle">⊞</text><text x="42" y="36" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start" dominant-baseline="middle" letter-spacing="0.5">Organizations</text><text x="42" y="50" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle" opacity="0.8">Member of 1 organization</text>
       <line id="title-line" x1="16" y1="52" x2="479" y2="52"
         stroke="url(#grad-accent)" stroke-width="1" opacity="0.4"/>
       
@@ -77,8 +77,8 @@
     <g transform="translate(0, 56)">
       
     <g opacity="0">
-      <rect x="16" y="0" width="226.5" height="66" rx="8" fill="#1d2225" stroke="#2d3943" stroke-width="0.5" opacity="0.85"/><circle cx="46" cy="33" r="18" fill="#d65c5c" stroke="#2d3943" stroke-width="0.5"/><text x="46" y="33" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">ID</text><text x="68" y="18" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">ID-Security</text><text x="68" y="33" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">@id-sec</text><text x="68" y="48" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle" opacity="0.7">Indonesian Secu…</text>
-    <rect x="16" y="0" width="226.5" height="66" rx="8"
+      <rect x="16" y="0" width="463" height="66" rx="8" fill="#1d2225" stroke="#2d3943" stroke-width="0.5" opacity="0.85"/><circle cx="46" cy="33" r="18" fill="#6cace0" stroke="#2d3943" stroke-width="0.5"/><text x="46" y="33" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">EM</text><text x="68" y="18" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">emperor-sec</text><text x="68" y="33" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">@emperor-sec</text><text x="68" y="48" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle" opacity="0.7">Security Resear…</text>
+    <rect x="16" y="0" width="463" height="66" rx="8"
       fill="none" stroke="url(#grad-accent)" stroke-width="1" opacity="0"
       style="cursor:pointer"
       onmouseenter="this.setAttribute('opacity','0.6')"
@@ -88,20 +88,6 @@
         keySplines="0.4 0 0.2 1" keyTimes="0;1"/><animateTransform attributeName="transform" type="translate"
         from="0 10" to="0 0"
         dur="0.5s" begin="0.1s" fill="freeze" calcMode="spline"
-        keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
-    </g>
-    <g opacity="0">
-      <rect x="252.5" y="0" width="226.5" height="66" rx="8" fill="#1d2225" stroke="#2d3943" stroke-width="0.5" opacity="0.85"/><circle cx="282.5" cy="33" r="18" fill="#d65c5c" stroke="#2d3943" stroke-width="0.5"/><text x="282.5" y="33" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">BU</text><text x="304.5" y="18" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">BugBounty Ind…</text><text x="304.5" y="33" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">@bugbounty-id</text><text x="304.5" y="48" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle" opacity="0.7">Bug Bounty Hunt…</text>
-    <rect x="252.5" y="0" width="226.5" height="66" rx="8"
-      fill="none" stroke="url(#grad-accent)" stroke-width="1" opacity="0"
-      style="cursor:pointer"
-      onmouseenter="this.setAttribute('opacity','0.6')"
-      onmouseleave="this.setAttribute('opacity','0')"/>
-      <animate attributeName="opacity" from="0" to="1"
-        dur="0.5s" begin="0.18s" fill="freeze" calcMode="spline"
-        keySplines="0.4 0 0.2 1" keyTimes="0;1"/><animateTransform attributeName="transform" type="translate"
-        from="0 10" to="0 0"
-        dur="0.5s" begin="0.18s" fill="freeze" calcMode="spline"
         keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
     </g>
     </g>

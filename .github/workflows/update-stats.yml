@@ -1,11 +1,9 @@
 name: Update GitHub Stats SVGs
 
 on:
-  # ── Auto-update every 6 hours ─────────────────────────────
   schedule:
     - cron: '0 */6 * * *'
 
-  # ── Trigger on push/PR/star/fork ──────────────────────────
   push:
     branches: [main]
     paths-ignore:
@@ -14,11 +12,10 @@ on:
       - 'README.md'
 
   watch:
-    types: [started]   # Someone starred the repo
+    types: [started]
 
   fork:
 
-  # ── Manual trigger with optional username override ─────────
   workflow_dispatch:
     inputs:
       username:
@@ -37,11 +34,11 @@ on:
         default: true
 
 permissions:
-  contents: write   # Needed to commit output SVGs back to repo
+  contents: write
 
 concurrency:
   group: update-stats
-  cancel-in-progress: false  # Don't cancel running updates
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -50,24 +47,18 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      # ── Checkout ─────────────────────────────────────────
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
 
-      # ── Setup Node ───────────────────────────────────────
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'        # ✅ Node 22 LTS (not deprecated)
           cache: 'npm'
 
-      # ── Install Dependencies ──────────────────────────────
       - name: Install Dependencies
-        run: npm ci
+        run: npm install --legacy-peer-deps   # ✅ fix peer dep conflict
 
-      # ── Restore Cache ─────────────────────────────────────
       - name: Restore API Cache
         uses: actions/cache@v4
         with:
@@ -76,16 +67,13 @@ jobs:
           restore-keys: |
             github-api-cache-${{ github.repository_owner }}-
 
-      # ── Clear cache if requested ──────────────────────────
       - name: Clear Cache
         if: github.event.inputs.clear_cache == 'true'
         run: rm -rf .cache/
 
-      # ── Build TypeScript ──────────────────────────────────
-      - name: Build
+      - name: Build TypeScript
         run: npm run build
 
-      # ── Generate Stats ────────────────────────────────────
       - name: Generate Stats SVGs
         env:
           GITHUB_TOKEN: ${{ secrets.STATS_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
@@ -94,32 +82,25 @@ jobs:
           CACHE_DIR: .cache
           CACHE_TTL: '120'
           ANIMATED: ${{ github.event.inputs.animated || 'true' }}
-          THEME: dynamic
           DEBUG: ${{ runner.debug }}
         run: npm start
 
-      # ── Commit & Push generated SVGs ─────────────────────
       - name: Commit Output
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-
           git add output/
-
-          # Only commit if there are changes
           if git diff --staged --quiet; then
-            echo "No changes to SVG output — skipping commit"
+            echo "No SVG changes — skipping commit"
           else
-            git commit -m "chore(stats): update stats SVGs [skip ci]
+            git commit -m "chore(stats): update SVGs [skip ci]
 
-          Generated at: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-          Triggered by: ${{ github.event_name }}
-          Username: ${{ github.event.inputs.username || github.repository_owner }}"
+          Generated: $(date -u '+%Y-%m-%d %H:%M UTC')
+          Trigger: ${{ github.event_name }}"
             git push
           fi
 
-      # ── Upload artifacts for inspection ───────────────────
-      - name: Upload SVG Artifacts
+      - name: Upload Artifacts
         uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -127,21 +108,22 @@ jobs:
           path: output/
           retention-days: 7
 
-      # ── Summary ───────────────────────────────────────────
-      - name: Write Job Summary
+      - name: Job Summary
         if: always()
         run: |
           echo "## 📊 GitHub Stats Generation" >> $GITHUB_STEP_SUMMARY
+          echo "**Trigger:** \`${{ github.event_name }}\` | **Run:** #${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Triggered by:** \`${{ github.event_name }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "**Username:** \`${{ github.event.inputs.username || github.repository_owner }}\`" >> $GITHUB_STEP_SUMMARY
-          echo "**Run:** [\#${{ github.run_number }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          if [ -d output ]; then
-            echo "### Generated Files" >> $GITHUB_STEP_SUMMARY
-            echo "| File | Size |" >> $GITHUB_STEP_SUMMARY
-            echo "|------|------|" >> $GITHUB_STEP_SUMMARY
-            for f in output/*.svg output/*.json; do
-              [ -f "$f" ] && echo "| \`$(basename $f)\` | $(du -sh $f | cut -f1) |" >> $GITHUB_STEP_SUMMARY
-            done
+          if [ -f output/meta.json ]; then
+            echo "### Stats Snapshot" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            cat output/meta.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
           fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Generated Files" >> $GITHUB_STEP_SUMMARY
+          echo "| File | Size |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|------|" >> $GITHUB_STEP_SUMMARY
+          for f in output/*.svg; do
+            [ -f "$f" ] && echo "| \`$(basename $f)\` | $(du -sh "$f" | cut -f1) |" >> $GITHUB_STEP_SUMMARY
+          done

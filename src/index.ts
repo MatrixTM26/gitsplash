@@ -1,6 +1,9 @@
 #!/usr/bin/env node
-import { GitHubClient, fetchUserData, fetchAllRepositories } from './fetchers/github.js';
-import { buildStatsData, extractTopLanguageColors, aggregateContributors } from './fetchers/aggregator.js';
+import {
+  GitHubClient, fetchUserData, fetchAllRepositories,
+  fetchOrganizationsDetailed,
+} from './fetchers/github.js';
+import { buildStatsData, extractTopLanguageColors } from './fetchers/aggregator.js';
 import { generateDynamicPalette, buildGradientsFromPalette } from './utils/color.js';
 import { FileCache, withCache } from './utils/cache.js';
 import { renderStatsCard2D } from './cards/stats-2d.js';
@@ -8,7 +11,6 @@ import { renderLangCardByCommit, renderLangCardByRepo } from './cards/lang-card.
 import { renderStatsCard3D } from './cards/topo-3d.js';
 import { renderStreakCard } from './cards/streak-card.js';
 import { renderOrgCard } from './cards/org-card.js';
-import { renderContributorCard } from './cards/contributor-card.js';
 import { promises as fs } from 'fs';
 import { join } from 'path';
 
@@ -22,7 +24,6 @@ const CONFIG = {
   cacheDir:  process.env.CACHE_DIR ?? '.cache',
   cacheTTL:  parseInt(process.env.CACHE_TTL ?? '120'),
   animated:  process.env.ANIMATED !== 'false',
-  topRepo:   process.env.TOP_REPO ?? '',
 };
 
 // ============================================================
@@ -41,7 +42,7 @@ async function writeSVG(name: string, svg: string, outDir: string): Promise<void
 // ============================================================
 async function main() {
   console.log('\n╔══════════════════════════════════════════╗');
-  console.log('║    GitHub Stats SVG Generator  v1.0      ║');
+  console.log('║    GitHub Stats SVG Generator  v1.1      ║');
   console.log('╚══════════════════════════════════════════╝\n');
 
   if (!CONFIG.token)    throw new Error('GITHUB_TOKEN env variable is required');
@@ -56,109 +57,130 @@ async function main() {
   // ── Fetch ──────────────────────────────────────────────────
   console.log(`📡 Fetching GitHub data for @${CONFIG.username}...\n`);
 
-  const [user, repositories] = await Promise.all([
+  const [user, repositories, orgsDetailed] = await Promise.all([
     withCache(cache, `user:${CONFIG.username}`, () =>
       fetchUserData(client, CONFIG.username)),
     withCache(cache, `repos:${CONFIG.username}`, () =>
       fetchAllRepositories(client, CONFIG.username)),
+    withCache(cache, `orgs:${CONFIG.username}`, () =>
+      fetchOrganizationsDetailed(client, CONFIG.username)),
   ]);
 
-  console.log(`\n✅ @${user.login} (${user.name})`);
-  console.log(`   Repos: ${repositories.length}  |  Followers: ${user.followers.totalCount}`);
-  console.log(`   Contributions: ${user.contributionsCollection.contributionCalendar.totalContributions}`);
+  console.log(`\n✅ @${user.login} (${user.name ?? 'no name'})`);
+  console.log(`   Public repos: ${repositories.length}`);
+  console.log(`   Followers: ${user.followers.totalCount} | Following: ${user.following.totalCount}`);
+  console.log(`   Contributions this year: ${user.contributionsCollection.contributionCalendar.totalContributions}`);
+  console.log(`   Organizations: ${orgsDetailed.length}`);
 
-  // ── Aggregate ──────────────────────────────────────────────
-  console.log('\n⚙️  Processing...');
+  // ── Merge org data: REST avatars override GraphQL placeholder ──
+  // GraphQL gives org list user is member of; REST enriches with real avatarUrl
+  const mergedOrgs = orgsDetailed.length > 0
+    ? orgsDetailed
+    : user.organizations.nodes.map((o) => ({
+        login: o.login, name: o.name, avatarUrl: o.avatarUrl,
+        description: o.description, url: o.url,
+      }));
+
+  // Patch user.organizations.nodes with real avatar data
+  user.organizations.nodes = mergedOrgs.map((ro) => {
+    const gql = user.organizations.nodes.find((g) => g.login === ro.login);
+    return {
+      login: ro.login,
+      name: ro.name || gql?.name || ro.login,
+      avatarUrl: ro.avatarUrl || gql?.avatarUrl || '',
+      description: ro.description || gql?.description || '',
+      url: ro.url || gql?.url || `https://github.com/${ro.login}`,
+    };
+  });
+  user.organizations.totalCount = mergedOrgs.length;
+
+  // ── Process ────────────────────────────────────────────────
+  console.log('\n⚙️  Processing stats...');
   const stats = buildStatsData(user, repositories);
-
-  // ── Theme ──────────────────────────────────────────────────
-  const topColors = extractTopLanguageColors(stats.languageStats, 3);
-  const palette   = generateDynamicPalette(topColors, 'dark');
-  const gradients = buildGradientsFromPalette(palette, CONFIG.animated);
-  const grads     = { 'grad-bg': gradients.bg, 'grad-accent': gradients.accent,
-                      'grad-chart': gradients.chart, 'grad-glow': gradients.glow };
-
-  console.log(`\n🎨 Palette: ${palette.primary} → ${palette.secondary} → ${palette.tertiary}`);
-
   const fullStats = { ...stats, topContributors: new Map() };
 
-  // ── Render all cards ───────────────────────────────────────
+  console.log(`   Languages: ${stats.languageStats.length}`);
+  console.log(`   Streak: ${stats.streak.currentStreak}d current / ${stats.streak.longestStreak}d longest`);
+
+  // ── Dynamic Theme ──────────────────────────────────────────
+  const topColors = extractTopLanguageColors(stats.languageStats, 3);
+  const palette   = generateDynamicPalette(topColors, 'dark');
+  const grads     = buildGradientsFromPalette(palette, CONFIG.animated);
+  const gradMap   = {
+    'grad-bg': grads.bg, 'grad-accent': grads.accent,
+    'grad-chart': grads.chart, 'grad-glow': grads.glow,
+  };
+
+  console.log(`\n🎨 Palette from top languages:`);
+  stats.languageStats.slice(0, 3).forEach((l) =>
+    console.log(`   ${l.name}: ${l.color} (${l.commitPercent}% commits)`));
+
+  // ── Render ─────────────────────────────────────────────────
   console.log('\n🖼️  Rendering SVG cards...');
 
   await writeSVG('stats-2d.svg',
-    renderStatsCard2D(fullStats, palette, grads, CONFIG.animated),
+    renderStatsCard2D(fullStats, palette, gradMap, CONFIG.animated),
     CONFIG.outputDir);
 
   await writeSVG('stats-3d.svg',
-    renderStatsCard3D(fullStats, palette, grads, CONFIG.animated),
+    renderStatsCard3D(fullStats, palette, gradMap, CONFIG.animated),
     CONFIG.outputDir);
 
   await writeSVG('langs-commit.svg',
-    renderLangCardByCommit(fullStats, palette, grads, CONFIG.animated),
+    renderLangCardByCommit(fullStats, palette, gradMap, CONFIG.animated),
     CONFIG.outputDir);
 
   await writeSVG('langs-repo.svg',
-    renderLangCardByRepo(fullStats, palette, grads, CONFIG.animated),
+    renderLangCardByRepo(fullStats, palette, gradMap, CONFIG.animated),
     CONFIG.outputDir);
 
   await writeSVG('streak.svg',
-    renderStreakCard(fullStats, palette, grads, CONFIG.animated),
+    renderStreakCard(fullStats, palette, gradMap, CONFIG.animated),
     CONFIG.outputDir);
 
-  if (user.organizations.nodes.length > 0) {
+  if (mergedOrgs.length > 0) {
     await writeSVG('orgs.svg',
-      renderOrgCard(fullStats, palette, grads, CONFIG.animated),
+      renderOrgCard(fullStats, palette, gradMap, CONFIG.animated),
       CONFIG.outputDir);
+  } else {
+    console.log('  · orgs.svg skipped (no public orgs)');
   }
-
-  // Contributor card (top starred repo)
-  const topRepo = CONFIG.topRepo
-    ? repositories.find((r) => r.name === CONFIG.topRepo)
-    : repositories.sort((a, b) => b.stargazerCount - a.stargazerCount)[0];
-
-  if (topRepo) {
-    console.log(`  · Contributor card for: ${topRepo.nameWithOwner}`);
-    // Mock contributors from REST (real fetch needs auth scope)
-    const mockContribs = aggregateContributors(
-      [{ login: user.login, name: user.name, avatarUrl: user.avatarUrl,
-         url: `https://github.com/${user.login}`, contributions: totalCommits(stats) }],
-      undefined
-    );
-    await writeSVG('contributors.svg',
-      renderContributorCard(topRepo.nameWithOwner, mockContribs, palette, grads, CONFIG.animated),
-      CONFIG.outputDir);
-  }
-
-  // ── Save JSON snapshot ─────────────────────────────────────
-  const snapshot = {
-    fetchedAt: new Date().toISOString(),
-    username: user.login,
-    palette,
-    streak: stats.streak,
-    langCount: stats.languageStats.length,
-    repoCount: repositories.length,
-    topLanguages: stats.languageStats.slice(0, 5).map((l) => ({ name: l.name, color: l.color, pct: l.commitPercent })),
-  };
-  await fs.writeFile(join(CONFIG.outputDir, 'meta.json'), JSON.stringify(snapshot, null, 2));
 
   // ── Rate limit summary ─────────────────────────────────────
   const rl = client.getRateLimit();
   if (rl) {
-    console.log(`\n📊 API rate limit: ${rl.remaining}/${rl.limit} remaining`);
+    const resetIn = Math.max(0, Math.round((rl.resetAt.getTime() - Date.now()) / 60000));
+    console.log(`\n📊 Rate limit: ${rl.remaining}/${rl.limit} remaining (resets in ${resetIn}m)`);
   }
 
-  console.log('\n✨ All done!\n');
-  console.log('Add to your README:');
+  // ── Snapshot JSON ──────────────────────────────────────────
+  const snapshot = {
+    fetchedAt: new Date().toISOString(),
+    username: user.login, name: user.name,
+    palette,
+    streak: stats.streak,
+    topLanguages: stats.languageStats.slice(0, 8).map((l) => ({
+      name: l.name, color: l.color,
+      commitPct: l.commitPercent, repoPct: l.repoPercent,
+    })),
+    orgs: mergedOrgs.map((o) => o.login),
+    repoCount: repositories.length,
+    followers: user.followers.totalCount,
+    following: user.following.totalCount,
+  };
+  await fs.writeFile(
+    join(CONFIG.outputDir, 'meta.json'),
+    JSON.stringify(snapshot, null, 2)
+  );
+
+  console.log('\n✨ Done!\n');
+  console.log('Embed in README:');
   console.log('```markdown');
   console.log(`![Stats](https://raw.githubusercontent.com/${user.login}/${user.login}/main/output/stats-2d.svg)`);
-  console.log(`![3D](https://raw.githubusercontent.com/${user.login}/${user.login}/main/output/stats-3d.svg)`);
-  console.log(`![Langs](https://raw.githubusercontent.com/${user.login}/${user.login}/main/output/langs-commit.svg)`);
+  console.log(`![3D Contributions](https://raw.githubusercontent.com/${user.login}/${user.login}/main/output/stats-3d.svg)`);
+  console.log(`![Languages](https://raw.githubusercontent.com/${user.login}/${user.login}/main/output/langs-commit.svg)`);
+  console.log(`![Streak](https://raw.githubusercontent.com/${user.login}/${user.login}/main/output/streak.svg)`);
   console.log('```\n');
-}
-
-function totalCommits(stats: ReturnType<typeof buildStatsData>): number {
-  const c = stats.user.contributionsCollection;
-  return c.totalCommitContributions + c.restrictedContributionsCount;
 }
 
 main().catch((err) => {

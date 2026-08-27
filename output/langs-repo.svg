@@ -4,7 +4,7 @@
   <title>Languages by Repository</title>
   <defs>
     <linearGradient id="grad-bg" x1="0.85" y1="0.15" x2="0.15" y2="0.85" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#111517"/><stop offset="50%" stop-color="#182127"/><stop offset="100%" stop-color="#1d191b"/>
+      <stop offset="0%" stop-color="#111517"/><stop offset="50%" stop-color="#182127"/><stop offset="100%" stop-color="#161b22"/>
       <animateTransform
         attributeName="gradientTransform"
         type="rotate"
@@ -14,7 +14,7 @@
       />
     </linearGradient>
     <linearGradient id="grad-accent" x1="0.5" y1="0" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#6cace0"/><stop offset="50%" stop-color="#d65c5c"/><stop offset="100%" stop-color="#7ecb4d"/>
+      <stop offset="0%" stop-color="#6cace0"/><stop offset="50%" stop-color="#5c74d6"/><stop offset="100%" stop-color="#864dcb"/>
       <animateTransform
         attributeName="gradientTransform"
         type="rotate"
@@ -24,7 +24,7 @@
       />
     </linearGradient>
     <linearGradient id="grad-chart" x1="0.5" y1="0" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#6cace0" stop-opacity="0.9"/><stop offset="100%" stop-color="#d65c5c" stop-opacity="0.7"/>
+      <stop offset="0%" stop-color="#6cace0" stop-opacity="0.9"/><stop offset="100%" stop-color="#5c74d6" stop-opacity="0.7"/>
     </linearGradient>
     <radialGradient id="grad-glow" cx="0.5" cy="0.5" r="0.6" gradientUnits="objectBoundingBox">
       <stop offset="0%" stop-color="#6cace0" stop-opacity="0.3"/><stop offset="100%" stop-color="#6cace0" stop-opacity="0"/>
@@ -91,26 +91,26 @@
           keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
           <animate attributeName="opacity" from="0" to="0.8"
           dur="0.3s" begin="0.6s" fill="freeze"/>
-      </circle><text x="437" y="14" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">25.0%</text>
+      </circle><text x="437" y="14" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">33.3%</text>
         <animate attributeName="opacity" from="0" to="1"
           dur="0.3s" begin="0.1s" fill="freeze"/>
       </g>
       <g opacity="0">
-        <circle cx="24" cy="34" r="4" fill="#555555"/><text x="34" y="34" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">C</text><rect x="126" y="29" width="303" height="10" rx="5" fill="#1d2225" opacity="0.5"/>
+        <circle cx="24" cy="34" r="4" fill="#4F5D95"/><text x="34" y="34" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">PHP</text><rect x="126" y="29" width="303" height="10" rx="5" fill="#1d2225" opacity="0.5"/>
       <rect x="126" y="29" width="0" height="10"
-        rx="5" fill="#555555" opacity="0.9">
-        <animate attributeName="width" from="0" to="303"
+        rx="5" fill="#4F5D95" opacity="0.9">
+        <animate attributeName="width" from="0" to="151.5"
           dur="0.8s" begin="0.16s" fill="freeze" calcMode="spline"
           keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
       </rect>
       <circle cx="126" cy="34" r="3"
-        fill="#555555" filter="url(#glow-filter)" opacity="0.8">
-        <animate attributeName="cx" from="126" to="429"
+        fill="#4F5D95" filter="url(#glow-filter)" opacity="0.8">
+        <animate attributeName="cx" from="126" to="277.5"
           dur="0.8s" begin="0.16s" fill="freeze" calcMode="spline"
           keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
           <animate attributeName="opacity" from="0" to="0.8"
           dur="0.3s" begin="0.66s" fill="freeze"/>
-      </circle><text x="437" y="34" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">25.0%</text>
+      </circle><text x="437" y="34" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">16.7%</text>
         <animate attributeName="opacity" from="0" to="1"
           dur="0.3s" begin="0.16s" fill="freeze"/>
       </g>
@@ -118,41 +118,60 @@
         <circle cx="24" cy="54" r="4" fill="#89e051"/><text x="34" y="54" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Bash</text><rect x="126" y="49" width="303" height="10" rx="5" fill="#1d2225" opacity="0.5"/>
       <rect x="126" y="49" width="0" height="10"
         rx="5" fill="#89e051" opacity="0.9">
-        <animate attributeName="width" from="0" to="303"
+        <animate attributeName="width" from="0" to="151.5"
           dur="0.8s" begin="0.22s" fill="freeze" calcMode="spline"
           keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
       </rect>
       <circle cx="126" cy="54" r="3"
         fill="#89e051" filter="url(#glow-filter)" opacity="0.8">
-        <animate attributeName="cx" from="126" to="429"
+        <animate attributeName="cx" from="126" to="277.5"
           dur="0.8s" begin="0.22s" fill="freeze" calcMode="spline"
           keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
           <animate attributeName="opacity" from="0" to="0.8"
           dur="0.3s" begin="0.72s" fill="freeze"/>
-      </circle><text x="437" y="54" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">25.0%</text>
+      </circle><text x="437" y="54" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">16.7%</text>
         <animate attributeName="opacity" from="0" to="1"
           dur="0.3s" begin="0.22s" fill="freeze"/>
       </g>
       <g opacity="0">
-        <circle cx="24" cy="74" r="4" fill="#3178c6"/><text x="34" y="74" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">TypeScript</text><rect x="126" y="69" width="303" height="10" rx="5" fill="#1d2225" opacity="0.5"/>
+        <circle cx="24" cy="74" r="4" fill="#00ADD8"/><text x="34" y="74" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Go</text><rect x="126" y="69" width="303" height="10" rx="5" fill="#1d2225" opacity="0.5"/>
       <rect x="126" y="69" width="0" height="10"
-        rx="5" fill="#3178c6" opacity="0.9">
-        <animate attributeName="width" from="0" to="303"
+        rx="5" fill="#00ADD8" opacity="0.9">
+        <animate attributeName="width" from="0" to="151.5"
           dur="0.8s" begin="0.28s" fill="freeze" calcMode="spline"
           keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
       </rect>
       <circle cx="126" cy="74" r="3"
-        fill="#3178c6" filter="url(#glow-filter)" opacity="0.8">
-        <animate attributeName="cx" from="126" to="429"
+        fill="#00ADD8" filter="url(#glow-filter)" opacity="0.8">
+        <animate attributeName="cx" from="126" to="277.5"
           dur="0.8s" begin="0.28s" fill="freeze" calcMode="spline"
           keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
           <animate attributeName="opacity" from="0" to="0.8"
           dur="0.3s" begin="0.78s" fill="freeze"/>
-      </circle><text x="437" y="74" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">25.0%</text>
+      </circle><text x="437" y="74" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">16.7%</text>
         <animate attributeName="opacity" from="0" to="1"
           dur="0.3s" begin="0.28s" fill="freeze"/>
+      </g>
+      <g opacity="0">
+        <circle cx="24" cy="94" r="4" fill="#3178c6"/><text x="34" y="94" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">TypeScript</text><rect x="126" y="89" width="303" height="10" rx="5" fill="#1d2225" opacity="0.5"/>
+      <rect x="126" y="89" width="0" height="10"
+        rx="5" fill="#3178c6" opacity="0.9">
+        <animate attributeName="width" from="0" to="151.5"
+          dur="0.8s" begin="0.33999999999999997s" fill="freeze" calcMode="spline"
+          keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
+      </rect>
+      <circle cx="126" cy="94" r="3"
+        fill="#3178c6" filter="url(#glow-filter)" opacity="0.8">
+        <animate attributeName="cx" from="126" to="277.5"
+          dur="0.8s" begin="0.33999999999999997s" fill="freeze" calcMode="spline"
+          keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
+          <animate attributeName="opacity" from="0" to="0.8"
+          dur="0.3s" begin="0.84s" fill="freeze"/>
+      </circle><text x="437" y="94" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="start" dominant-baseline="middle">16.7%</text>
+        <animate attributeName="opacity" from="0" to="1"
+          dur="0.3s" begin="0.33999999999999997s" fill="freeze"/>
       </g></g>
     </g>
-    <text x="247.5" y="185" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="middle" opacity="0.5">4 repos analysed</text>
+    <text x="247.5" y="185" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#7b8e9d" text-anchor="middle" opacity="0.5">6 repos analysed</text>
   </g>
 </svg>

@@ -269,7 +269,7 @@ function buildLegend(maxCount: number, palette: DynamicPalette, cardW: number): 
   const gap = 3;
   const legendW = levels * (cellSize + gap);
   const startX = cardW - 16 - legendW;
-  const y = H - 42; // relative to body (no title offset applied here since shell handles it)
+  const y = H - 56 - 42; // body height minus legend height (title offset handled by shell)
 
   const cells = Array.from({ length: levels }, (_, i) => {
     const t = i / (levels - 1);
@@ -292,7 +292,7 @@ function buildLegend(maxCount: number, palette: DynamicPalette, cardW: number): 
       fill: palette.textMuted, anchor: 'middle', opacity: 0.6 }),
   ].join('');
 
-  return `<g transform="translate(0, -56)">${cells}${labels}</g>`;
+  return `<g>${cells}${labels}</g>`;
 }
 
 // ============================================================
@@ -309,7 +309,7 @@ function buildSummary(stats: StatsData, palette: DynamicPalette, animated: boole
     { icon: '✦', label: 'Total', value: total.toLocaleString() },
   ];
 
-  const startY = H - 80;
+  const startY = H - 56 - 80; // relative to body start (title offset handled by shell)
 
   return items.map((item, i) => {
     const x = 16 + i * 120;
@@ -327,6 +327,6 @@ function buildSummary(stats: StatsData, palette: DynamicPalette, animated: boole
           dur="0.4s" begin="${delay}s" fill="freeze"/>`
       : '';
 
-    return `<g transform="translate(0, -56)" opacity="${animated ? 0 : 1}">${iconEl}${labelEl}${valEl}${fadeIn}</g>`;
+    return `<g opacity="${animated ? 0 : 1}">${iconEl}${labelEl}${valEl}${fadeIn}</g>`;
   }).join('');
 }

@@ -392,6 +392,46 @@ export async function fetchRepoContributors(
 }
 
 // ============================================================
+// Fetch orgs the user follows (REST) + member orgs (already in GraphQL)
+// GitHub GraphQL organizations() = orgs user is MEMBER of
+// REST /users/:login/orgs = public orgs user belongs to (same)
+// To get orgs user follows → not directly possible, but we enrich
+// member orgs with real avatarUrl from GraphQL org query
+// ============================================================
+
+export async function fetchOrganizationsDetailed(
+  client: GitHubClient,
+  username: string
+): Promise<Array<{
+  login: string; name: string; avatarUrl: string;
+  description: string; url: string;
+  publicRepos?: number; members?: number;
+}>> {
+  console.log(`[Fetcher] Fetching organizations for @${username}...`);
+
+  // REST: returns public orgs the user belongs to (reliable, no auth scope needed)
+  interface RestOrg {
+    login: string; description: string | null;
+    avatar_url: string; url: string; repos_url: string;
+  }
+
+  try {
+    const orgs = await client.rest<RestOrg[]>(`/users/${username}/orgs`);
+
+    return orgs.map((o) => ({
+      login: o.login,
+      name: o.login,
+      avatarUrl: o.avatar_url,  // ✅ real avatar from REST
+      description: o.description ?? '',
+      url: `https://github.com/${o.login}`,
+    }));
+  } catch {
+    console.warn('[Fetcher] Could not fetch orgs via REST, falling back to empty');
+    return [];
+  }
+}
+
+// ============================================================
 // Helpers
 // ============================================================
 

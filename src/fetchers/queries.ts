@@ -182,3 +182,19 @@ export const ORG_DETAILS_QUERY = `
     }
   }
 `;
+
+// Fetch orgs the user is following (via following endpoint - REST only)
+// Also fetch detailed org info including avatarUrl for rendering
+export const ORG_AVATAR_QUERY = `
+  query GetOrgAvatar($login: String!) {
+    organization(login: $login) {
+      login
+      name
+      avatarUrl
+      description
+      url
+      membersWithRole { totalCount }
+      repositories(privacy: PUBLIC) { totalCount }
+    }
+  }
+`;

@@ -13,7 +13,8 @@
     "lint:fix": "eslint src --ext .ts --fix",
     "type-check": "tsc --noEmit",
     "clean": "rm -rf dist .cache output/*.svg",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "ci": "npm install --legacy-peer-deps"
   },
   "keywords": [
     "github",
@@ -33,9 +34,6 @@
   },
   "devDependencies": {
     "@types/node": "^20.14.0",
-    "@typescript-eslint/eslint-plugin": "^7.13.0",
-    "@typescript-eslint/parser": "^7.13.0",
-    "eslint": "^9.5.0",
     "tsx": "^4.15.7",
     "typescript": "^5.4.5"
   },
