@@ -75,7 +75,7 @@
       keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
     </g>
     <g transform="translate(0, 56)">
-      <g opacity="0"><rect x="16" y="4" width="149" height="64" rx="8" fill="#251d1d" stroke="#432d2d" stroke-width="0.5" opacity="0.85"/><text x="90.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#d6c85c" text-anchor="middle" dominant-baseline="middle">◎</text><text x="90.5" y="40" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="middle" dominant-baseline="middle">10,047</text><text x="90.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Total Contributions</text><animate attributeName="opacity" from="0" to="1"
+      <g opacity="0"><rect x="16" y="4" width="149" height="64" rx="8" fill="#251d1d" stroke="#432d2d" stroke-width="0.5" opacity="0.85"/><text x="90.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#d6c85c" text-anchor="middle" dominant-baseline="middle">◎</text><text x="90.5" y="40" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="middle" dominant-baseline="middle">10,052</text><text x="90.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Total Contributions</text><animate attributeName="opacity" from="0" to="1"
           dur="0.5s" begin="0.1s" fill="freeze" calcMode="spline"
           keySplines="0.4 0 0.2 1" keyTimes="0;1"/></g><g opacity="0"><rect x="173" y="4" width="149" height="64" rx="8" fill="#3b2626" stroke="#e06c6c" stroke-width="1" opacity="0.85"/><text x="247.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="middle" dominant-baseline="middle" filter="url(#glow-filter)">⚑</text><text x="247.5" y="40" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e06c6c" text-anchor="middle" dominant-baseline="middle">240 days</text><text x="247.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Current Streak</text><rect x="173" y="4" width="149" height="64" rx="8"
           fill="none" stroke="#e06c6c" stroke-width="1" opacity="0">
@@ -896,8 +896,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="142" width="8" height="8" rx="1.5"
-      fill="#683c3c" opacity="0">
-      <title>2026-08-28: 15 contributions</title>
+      fill="#754141" opacity="0">
+      <title>2026-08-28: 20 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
