@@ -86,8 +86,8 @@
           keySplines="0.4 0 0.2 1" keyTimes="0;1"/></g><g opacity="0"><rect x="330" y="4" width="149" height="64" rx="8" fill="#251d1d" stroke="#432d2d" stroke-width="0.5" opacity="0.85"/><text x="404.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#cbcb4d" text-anchor="middle" dominant-baseline="middle">★</text><text x="404.5" y="40" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="middle" dominant-baseline="middle">241 days</text><text x="404.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Longest Streak</text><animate attributeName="opacity" from="0" to="1"
           dur="0.5s" begin="0.3s" fill="freeze" calcMode="spline"
           keySplines="0.4 0 0.2 1" keyTimes="0;1"/></g><g><rect x="16" y="82" width="8" height="8" rx="1.5"
-      fill="#5c3737" opacity="0">
-      <title>2026-05-31: 10 contributions</title>
+      fill="#724040" opacity="0">
+      <title>2026-06-01: 19 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.4s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -95,8 +95,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.4s" fill="freeze"/>
     </rect><rect x="16" y="92" width="8" height="8" rx="1.5"
-      fill="#724040" opacity="0">
-      <title>2026-06-01: 19 contributions</title>
+      fill="#7a4343" opacity="0">
+      <title>2026-06-02: 22 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.4s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -104,8 +104,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.4s" fill="freeze"/>
     </rect><rect x="16" y="102" width="8" height="8" rx="1.5"
-      fill="#7a4343" opacity="0">
-      <title>2026-06-02: 22 contributions</title>
+      fill="#663b3b" opacity="0">
+      <title>2026-06-03: 14 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.4s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -113,8 +113,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.4s" fill="freeze"/>
     </rect><rect x="16" y="112" width="8" height="8" rx="1.5"
-      fill="#663b3b" opacity="0">
-      <title>2026-06-03: 14 contributions</title>
+      fill="#a75555" opacity="0">
+      <title>2026-06-04: 40 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.4s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -122,8 +122,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.4s" fill="freeze"/>
     </rect><rect x="16" y="122" width="8" height="8" rx="1.5"
-      fill="#a75555" opacity="0">
-      <title>2026-06-04: 40 contributions</title>
+      fill="#613939" opacity="0">
+      <title>2026-06-05: 12 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.4s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -131,8 +131,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.4s" fill="freeze"/>
     </rect><rect x="16" y="132" width="8" height="8" rx="1.5"
-      fill="#613939" opacity="0">
-      <title>2026-06-05: 12 contributions</title>
+      fill="#844747" opacity="0">
+      <title>2026-06-06: 26 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.4s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -140,8 +140,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.4s" fill="freeze"/>
     </rect><rect x="16" y="142" width="8" height="8" rx="1.5"
-      fill="#844747" opacity="0">
-      <title>2026-06-06: 26 contributions</title>
+      fill="#4f3232" opacity="0">
+      <title>2026-06-07: 5 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.4s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -149,8 +149,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.4s" fill="freeze"/>
     </rect><rect x="26" y="82" width="8" height="8" rx="1.5"
-      fill="#4f3232" opacity="0">
-      <title>2026-06-07: 5 contributions</title>
+      fill="#593636" opacity="0">
+      <title>2026-06-08: 9 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -159,7 +159,7 @@
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
     </rect><rect x="26" y="92" width="8" height="8" rx="1.5"
       fill="#593636" opacity="0">
-      <title>2026-06-08: 9 contributions</title>
+      <title>2026-06-09: 9 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -167,8 +167,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
     </rect><rect x="26" y="102" width="8" height="8" rx="1.5"
-      fill="#593636" opacity="0">
-      <title>2026-06-09: 9 contributions</title>
+      fill="#4d3131" opacity="0">
+      <title>2026-06-10: 4 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -176,8 +176,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
     </rect><rect x="26" y="112" width="8" height="8" rx="1.5"
-      fill="#4d3131" opacity="0">
-      <title>2026-06-10: 4 contributions</title>
+      fill="#593636" opacity="0">
+      <title>2026-06-11: 9 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -185,8 +185,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
     </rect><rect x="26" y="122" width="8" height="8" rx="1.5"
-      fill="#593636" opacity="0">
-      <title>2026-06-11: 9 contributions</title>
+      fill="#5c3737" opacity="0">
+      <title>2026-06-12: 10 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -194,8 +194,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
     </rect><rect x="26" y="132" width="8" height="8" rx="1.5"
-      fill="#5c3737" opacity="0">
-      <title>2026-06-12: 10 contributions</title>
+      fill="#4d3131" opacity="0">
+      <title>2026-06-13: 4 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -204,7 +204,7 @@
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
     </rect><rect x="26" y="142" width="8" height="8" rx="1.5"
       fill="#4d3131" opacity="0">
-      <title>2026-06-13: 4 contributions</title>
+      <title>2026-06-14: 4 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -212,8 +212,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.43000000000000005s" fill="freeze"/>
     </rect><rect x="36" y="82" width="8" height="8" rx="1.5"
-      fill="#4d3131" opacity="0">
-      <title>2026-06-14: 4 contributions</title>
+      fill="#523333" opacity="0">
+      <title>2026-06-15: 6 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.46s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -221,8 +221,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.46s" fill="freeze"/>
     </rect><rect x="36" y="92" width="8" height="8" rx="1.5"
-      fill="#523333" opacity="0">
-      <title>2026-06-15: 6 contributions</title>
+      fill="#864848" opacity="0">
+      <title>2026-06-16: 27 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.46s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -230,8 +230,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.46s" fill="freeze"/>
     </rect><rect x="36" y="102" width="8" height="8" rx="1.5"
-      fill="#864848" opacity="0">
-      <title>2026-06-16: 27 contributions</title>
+      fill="#6d3e3e" opacity="0">
+      <title>2026-06-17: 17 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.46s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -240,7 +240,7 @@
             dur="0.3s" begin="0.46s" fill="freeze"/>
     </rect><rect x="36" y="112" width="8" height="8" rx="1.5"
       fill="#6d3e3e" opacity="0">
-      <title>2026-06-17: 17 contributions</title>
+      <title>2026-06-18: 17 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.46s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -248,8 +248,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.46s" fill="freeze"/>
     </rect><rect x="36" y="122" width="8" height="8" rx="1.5"
-      fill="#6d3e3e" opacity="0">
-      <title>2026-06-18: 17 contributions</title>
+      fill="#844747" opacity="0">
+      <title>2026-06-19: 26 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.46s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -257,8 +257,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.46s" fill="freeze"/>
     </rect><rect x="36" y="132" width="8" height="8" rx="1.5"
-      fill="#844747" opacity="0">
-      <title>2026-06-19: 26 contributions</title>
+      fill="#904c4c" opacity="0">
+      <title>2026-06-20: 31 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.46s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -266,8 +266,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.46s" fill="freeze"/>
     </rect><rect x="36" y="142" width="8" height="8" rx="1.5"
-      fill="#904c4c" opacity="0">
-      <title>2026-06-20: 31 contributions</title>
+      fill="#8e4b4b" opacity="0">
+      <title>2026-06-21: 30 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.46s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -275,8 +275,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.46s" fill="freeze"/>
     </rect><rect x="46" y="82" width="8" height="8" rx="1.5"
-      fill="#8e4b4b" opacity="0">
-      <title>2026-06-21: 30 contributions</title>
+      fill="#864848" opacity="0">
+      <title>2026-06-22: 27 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.49s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -284,8 +284,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.49s" fill="freeze"/>
     </rect><rect x="46" y="92" width="8" height="8" rx="1.5"
-      fill="#864848" opacity="0">
-      <title>2026-06-22: 27 contributions</title>
+      fill="#984f4f" opacity="0">
+      <title>2026-06-23: 34 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.49s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -293,8 +293,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.49s" fill="freeze"/>
     </rect><rect x="46" y="102" width="8" height="8" rx="1.5"
-      fill="#984f4f" opacity="0">
-      <title>2026-06-23: 34 contributions</title>
+      fill="#7a4343" opacity="0">
+      <title>2026-06-24: 22 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.49s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -302,8 +302,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.49s" fill="freeze"/>
     </rect><rect x="46" y="112" width="8" height="8" rx="1.5"
-      fill="#7a4343" opacity="0">
-      <title>2026-06-24: 22 contributions</title>
+      fill="#8e4b4b" opacity="0">
+      <title>2026-06-25: 30 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.49s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -311,8 +311,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.49s" fill="freeze"/>
     </rect><rect x="46" y="122" width="8" height="8" rx="1.5"
-      fill="#8e4b4b" opacity="0">
-      <title>2026-06-25: 30 contributions</title>
+      fill="#9a5050" opacity="0">
+      <title>2026-06-26: 35 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.49s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -320,8 +320,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.49s" fill="freeze"/>
     </rect><rect x="46" y="132" width="8" height="8" rx="1.5"
-      fill="#9a5050" opacity="0">
-      <title>2026-06-26: 35 contributions</title>
+      fill="#8e4b4b" opacity="0">
+      <title>2026-06-27: 30 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.49s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -329,8 +329,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.49s" fill="freeze"/>
     </rect><rect x="46" y="142" width="8" height="8" rx="1.5"
-      fill="#8e4b4b" opacity="0">
-      <title>2026-06-27: 30 contributions</title>
+      fill="#844747" opacity="0">
+      <title>2026-06-28: 26 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.49s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -338,8 +338,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.49s" fill="freeze"/>
     </rect><rect x="56" y="82" width="8" height="8" rx="1.5"
-      fill="#844747" opacity="0">
-      <title>2026-06-28: 26 contributions</title>
+      fill="#864848" opacity="0">
+      <title>2026-06-29: 27 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.52s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -347,8 +347,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.52s" fill="freeze"/>
     </rect><rect x="56" y="92" width="8" height="8" rx="1.5"
-      fill="#864848" opacity="0">
-      <title>2026-06-29: 27 contributions</title>
+      fill="#844747" opacity="0">
+      <title>2026-06-30: 26 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.52s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -356,8 +356,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.52s" fill="freeze"/>
     </rect><rect x="56" y="102" width="8" height="8" rx="1.5"
-      fill="#844747" opacity="0">
-      <title>2026-06-30: 26 contributions</title>
+      fill="#904c4c" opacity="0">
+      <title>2026-07-01: 31 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.52s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -365,8 +365,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.52s" fill="freeze"/>
     </rect><rect x="56" y="112" width="8" height="8" rx="1.5"
-      fill="#904c4c" opacity="0">
-      <title>2026-07-01: 31 contributions</title>
+      fill="#a75555" opacity="0">
+      <title>2026-07-02: 40 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.52s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -374,8 +374,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.52s" fill="freeze"/>
     </rect><rect x="56" y="122" width="8" height="8" rx="1.5"
-      fill="#a75555" opacity="0">
-      <title>2026-07-02: 40 contributions</title>
+      fill="#a25353" opacity="0">
+      <title>2026-07-03: 38 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.52s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -383,8 +383,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.52s" fill="freeze"/>
     </rect><rect x="56" y="132" width="8" height="8" rx="1.5"
-      fill="#a25353" opacity="0">
-      <title>2026-07-03: 38 contributions</title>
+      fill="#934d4d" opacity="0">
+      <title>2026-07-04: 32 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.52s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -392,8 +392,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.52s" fill="freeze"/>
     </rect><rect x="56" y="142" width="8" height="8" rx="1.5"
-      fill="#934d4d" opacity="0">
-      <title>2026-07-04: 32 contributions</title>
+      fill="#a45454" opacity="0">
+      <title>2026-07-05: 39 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.52s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -401,8 +401,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.52s" fill="freeze"/>
     </rect><rect x="66" y="82" width="8" height="8" rx="1.5"
-      fill="#a45454" opacity="0">
-      <title>2026-07-05: 39 contributions</title>
+      fill="#954e4e" opacity="0">
+      <title>2026-07-06: 33 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.55s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -410,8 +410,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.55s" fill="freeze"/>
     </rect><rect x="66" y="92" width="8" height="8" rx="1.5"
-      fill="#954e4e" opacity="0">
-      <title>2026-07-06: 33 contributions</title>
+      fill="#b35a5a" opacity="0">
+      <title>2026-07-07: 45 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.55s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -419,8 +419,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.55s" fill="freeze"/>
     </rect><rect x="66" y="102" width="8" height="8" rx="1.5"
-      fill="#b35a5a" opacity="0">
-      <title>2026-07-07: 45 contributions</title>
+      fill="#c56161" opacity="0">
+      <title>2026-07-08: 52 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.55s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -428,8 +428,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.55s" fill="freeze"/>
     </rect><rect x="66" y="112" width="8" height="8" rx="1.5"
-      fill="#c56161" opacity="0">
-      <title>2026-07-08: 52 contributions</title>
+      fill="#b35a5a" opacity="0">
+      <title>2026-07-09: 45 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.55s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -437,8 +437,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.55s" fill="freeze"/>
     </rect><rect x="66" y="122" width="8" height="8" rx="1.5"
-      fill="#b35a5a" opacity="0">
-      <title>2026-07-09: 45 contributions</title>
+      fill="#8e4b4b" opacity="0">
+      <title>2026-07-10: 30 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.55s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -447,7 +447,7 @@
             dur="0.3s" begin="0.55s" fill="freeze"/>
     </rect><rect x="66" y="132" width="8" height="8" rx="1.5"
       fill="#8e4b4b" opacity="0">
-      <title>2026-07-10: 30 contributions</title>
+      <title>2026-07-11: 30 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.55s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -455,8 +455,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.55s" fill="freeze"/>
     </rect><rect x="66" y="142" width="8" height="8" rx="1.5"
-      fill="#8e4b4b" opacity="0">
-      <title>2026-07-11: 30 contributions</title>
+      fill="#ac5757" opacity="0">
+      <title>2026-07-12: 42 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.55s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -464,8 +464,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.55s" fill="freeze"/>
     </rect><rect x="76" y="82" width="8" height="8" rx="1.5"
-      fill="#ac5757" opacity="0">
-      <title>2026-07-12: 42 contributions</title>
+      fill="#a25353" opacity="0">
+      <title>2026-07-13: 38 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -473,8 +473,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
     </rect><rect x="76" y="92" width="8" height="8" rx="1.5"
-      fill="#a25353" opacity="0">
-      <title>2026-07-13: 38 contributions</title>
+      fill="#844747" opacity="0">
+      <title>2026-07-14: 26 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -482,8 +482,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
     </rect><rect x="76" y="102" width="8" height="8" rx="1.5"
-      fill="#844747" opacity="0">
-      <title>2026-07-14: 26 contributions</title>
+      fill="#db6a6a" opacity="0">
+      <title>2026-07-15: 61 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -491,8 +491,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
     </rect><rect x="76" y="112" width="8" height="8" rx="1.5"
-      fill="#db6a6a" opacity="0">
-      <title>2026-07-15: 61 contributions</title>
+      fill="#d2c956" opacity="0">
+      <title>2026-07-16: 151 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -500,8 +500,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
     </rect><rect x="76" y="122" width="8" height="8" rx="1.5"
-      fill="#d2c956" opacity="0">
-      <title>2026-07-16: 151 contributions</title>
+      fill="#d3c957" opacity="0">
+      <title>2026-07-17: 146 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -509,8 +509,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
     </rect><rect x="76" y="132" width="8" height="8" rx="1.5"
-      fill="#d3c957" opacity="0">
-      <title>2026-07-17: 146 contributions</title>
+      fill="#d3c958" opacity="0">
+      <title>2026-07-18: 144 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -518,8 +518,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
     </rect><rect x="76" y="142" width="8" height="8" rx="1.5"
-      fill="#d3c958" opacity="0">
-      <title>2026-07-18: 144 contributions</title>
+      fill="#d4c85a" opacity="0">
+      <title>2026-07-19: 136 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -527,8 +527,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.5800000000000001s" fill="freeze"/>
     </rect><rect x="86" y="82" width="8" height="8" rx="1.5"
-      fill="#d4c85a" opacity="0">
-      <title>2026-07-19: 136 contributions</title>
+      fill="#d3c957" opacity="0">
+      <title>2026-07-20: 146 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.61s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -536,8 +536,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.61s" fill="freeze"/>
     </rect><rect x="86" y="92" width="8" height="8" rx="1.5"
-      fill="#d3c957" opacity="0">
-      <title>2026-07-20: 146 contributions</title>
+      fill="#d1c955" opacity="0">
+      <title>2026-07-21: 157 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.61s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -545,8 +545,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.61s" fill="freeze"/>
     </rect><rect x="86" y="102" width="8" height="8" rx="1.5"
-      fill="#d1c955" opacity="0">
-      <title>2026-07-21: 157 contributions</title>
+      fill="#cdcb4f" opacity="0">
+      <title>2026-07-22: 181 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.61s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -554,8 +554,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.61s" fill="freeze"/>
     </rect><rect x="86" y="112" width="8" height="8" rx="1.5"
-      fill="#cdcb4f" opacity="0">
-      <title>2026-07-22: 181 contributions</title>
+      fill="#cbcb4d" opacity="0">
+      <title>2026-07-23: 189 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.61s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -563,8 +563,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.61s" fill="freeze"/>
     </rect><rect x="86" y="122" width="8" height="8" rx="1.5"
-      fill="#cbcb4d" opacity="0">
-      <title>2026-07-23: 189 contributions</title>
+      fill="#d0ca54" opacity="0">
+      <title>2026-07-24: 162 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.61s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -572,8 +572,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.61s" fill="freeze"/>
     </rect><rect x="86" y="132" width="8" height="8" rx="1.5"
-      fill="#d0ca54" opacity="0">
-      <title>2026-07-24: 162 contributions</title>
+      fill="#cfca52" opacity="0">
+      <title>2026-07-25: 167 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.61s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -581,8 +581,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.61s" fill="freeze"/>
     </rect><rect x="86" y="142" width="8" height="8" rx="1.5"
-      fill="#cfca52" opacity="0">
-      <title>2026-07-25: 167 contributions</title>
+      fill="#d3c958" opacity="0">
+      <title>2026-07-26: 142 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.61s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -591,7 +591,7 @@
             dur="0.3s" begin="0.61s" fill="freeze"/>
     </rect><rect x="96" y="82" width="8" height="8" rx="1.5"
       fill="#d3c958" opacity="0">
-      <title>2026-07-26: 142 contributions</title>
+      <title>2026-07-27: 142 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.64s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -599,8 +599,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.64s" fill="freeze"/>
     </rect><rect x="96" y="92" width="8" height="8" rx="1.5"
-      fill="#d3c958" opacity="0">
-      <title>2026-07-27: 142 contributions</title>
+      fill="#d2c957" opacity="0">
+      <title>2026-07-28: 149 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.64s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -608,8 +608,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.64s" fill="freeze"/>
     </rect><rect x="96" y="102" width="8" height="8" rx="1.5"
-      fill="#d2c957" opacity="0">
-      <title>2026-07-28: 149 contributions</title>
+      fill="#d1c955" opacity="0">
+      <title>2026-07-29: 155 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.64s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -617,8 +617,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.64s" fill="freeze"/>
     </rect><rect x="96" y="112" width="8" height="8" rx="1.5"
-      fill="#d1c955" opacity="0">
-      <title>2026-07-29: 155 contributions</title>
+      fill="#d2c956" opacity="0">
+      <title>2026-07-30: 151 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.64s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -626,8 +626,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.64s" fill="freeze"/>
     </rect><rect x="96" y="122" width="8" height="8" rx="1.5"
-      fill="#d2c956" opacity="0">
-      <title>2026-07-30: 151 contributions</title>
+      fill="#d1c955" opacity="0">
+      <title>2026-07-31: 154 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.64s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -635,8 +635,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.64s" fill="freeze"/>
     </rect><rect x="96" y="132" width="8" height="8" rx="1.5"
-      fill="#d1c955" opacity="0">
-      <title>2026-07-31: 154 contributions</title>
+      fill="#d4c85a" opacity="0">
+      <title>2026-08-01: 137 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.64s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -644,8 +644,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.64s" fill="freeze"/>
     </rect><rect x="96" y="142" width="8" height="8" rx="1.5"
-      fill="#d4c85a" opacity="0">
-      <title>2026-08-01: 137 contributions</title>
+      fill="#d0ca53" opacity="0">
+      <title>2026-08-02: 163 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.64s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -653,8 +653,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.64s" fill="freeze"/>
     </rect><rect x="106" y="82" width="8" height="8" rx="1.5"
-      fill="#d0ca53" opacity="0">
-      <title>2026-08-02: 163 contributions</title>
+      fill="#d6c65c" opacity="0">
+      <title>2026-08-03: 124 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.67s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -662,8 +662,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.67s" fill="freeze"/>
     </rect><rect x="106" y="92" width="8" height="8" rx="1.5"
-      fill="#d6c65c" opacity="0">
-      <title>2026-08-03: 124 contributions</title>
+      fill="#d8b65f" opacity="0">
+      <title>2026-08-04: 113 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.67s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -671,8 +671,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.67s" fill="freeze"/>
     </rect><rect x="106" y="102" width="8" height="8" rx="1.5"
-      fill="#d8b65f" opacity="0">
-      <title>2026-08-04: 113 contributions</title>
+      fill="#cfca52" opacity="0">
+      <title>2026-08-05: 168 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.67s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -680,8 +680,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.67s" fill="freeze"/>
     </rect><rect x="106" y="112" width="8" height="8" rx="1.5"
-      fill="#cfca52" opacity="0">
-      <title>2026-08-05: 168 contributions</title>
+      fill="#cfca53" opacity="0">
+      <title>2026-08-06: 164 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.67s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -689,8 +689,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.67s" fill="freeze"/>
     </rect><rect x="106" y="122" width="8" height="8" rx="1.5"
-      fill="#cfca53" opacity="0">
-      <title>2026-08-06: 164 contributions</title>
+      fill="#d3c958" opacity="0">
+      <title>2026-08-07: 145 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.67s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -698,8 +698,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.67s" fill="freeze"/>
     </rect><rect x="106" y="132" width="8" height="8" rx="1.5"
-      fill="#d3c958" opacity="0">
-      <title>2026-08-07: 145 contributions</title>
+      fill="#d2c956" opacity="0">
+      <title>2026-08-08: 150 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.67s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -707,8 +707,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.67s" fill="freeze"/>
     </rect><rect x="106" y="142" width="8" height="8" rx="1.5"
-      fill="#d2c956" opacity="0">
-      <title>2026-08-08: 150 contributions</title>
+      fill="#d3c958" opacity="0">
+      <title>2026-08-09: 143 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.67s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -716,8 +716,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.67s" fill="freeze"/>
     </rect><rect x="116" y="82" width="8" height="8" rx="1.5"
-      fill="#d3c958" opacity="0">
-      <title>2026-08-09: 143 contributions</title>
+      fill="#cdca50" opacity="0">
+      <title>2026-08-10: 177 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.7s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -725,8 +725,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.7s" fill="freeze"/>
     </rect><rect x="116" y="92" width="8" height="8" rx="1.5"
-      fill="#cdca50" opacity="0">
-      <title>2026-08-10: 177 contributions</title>
+      fill="#d2c957" opacity="0">
+      <title>2026-08-11: 147 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.7s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -734,8 +734,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.7s" fill="freeze"/>
     </rect><rect x="116" y="102" width="8" height="8" rx="1.5"
-      fill="#d2c957" opacity="0">
-      <title>2026-08-11: 147 contributions</title>
+      fill="#d3c958" opacity="0">
+      <title>2026-08-12: 142 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.7s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -743,8 +743,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.7s" fill="freeze"/>
     </rect><rect x="116" y="112" width="8" height="8" rx="1.5"
-      fill="#d3c958" opacity="0">
-      <title>2026-08-12: 142 contributions</title>
+      fill="#d3c957" opacity="0">
+      <title>2026-08-13: 146 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.7s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -752,8 +752,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.7s" fill="freeze"/>
     </rect><rect x="116" y="122" width="8" height="8" rx="1.5"
-      fill="#d3c957" opacity="0">
-      <title>2026-08-13: 146 contributions</title>
+      fill="#ceca51" opacity="0">
+      <title>2026-08-14: 173 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.7s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -761,8 +761,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.7s" fill="freeze"/>
     </rect><rect x="116" y="132" width="8" height="8" rx="1.5"
-      fill="#ceca51" opacity="0">
-      <title>2026-08-14: 173 contributions</title>
+      fill="#db9a64" opacity="0">
+      <title>2026-08-15: 94 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.7s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -770,8 +770,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.7s" fill="freeze"/>
     </rect><rect x="116" y="142" width="8" height="8" rx="1.5"
-      fill="#db9a64" opacity="0">
-      <title>2026-08-15: 94 contributions</title>
+      fill="#613939" opacity="0">
+      <title>2026-08-16: 12 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.7s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -779,8 +779,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.7s" fill="freeze"/>
     </rect><rect x="126" y="82" width="8" height="8" rx="1.5"
-      fill="#613939" opacity="0">
-      <title>2026-08-16: 12 contributions</title>
+      fill="#683c3c" opacity="0">
+      <title>2026-08-17: 15 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -788,8 +788,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="126" y="92" width="8" height="8" rx="1.5"
-      fill="#683c3c" opacity="0">
-      <title>2026-08-17: 15 contributions</title>
+      fill="#894949" opacity="0">
+      <title>2026-08-18: 28 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -797,8 +797,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="126" y="102" width="8" height="8" rx="1.5"
-      fill="#894949" opacity="0">
-      <title>2026-08-18: 28 contributions</title>
+      fill="#573535" opacity="0">
+      <title>2026-08-19: 8 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -806,8 +806,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="126" y="112" width="8" height="8" rx="1.5"
-      fill="#573535" opacity="0">
-      <title>2026-08-19: 8 contributions</title>
+      fill="#894949" opacity="0">
+      <title>2026-08-20: 28 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -815,8 +815,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="126" y="122" width="8" height="8" rx="1.5"
-      fill="#894949" opacity="0">
-      <title>2026-08-20: 28 contributions</title>
+      fill="#724040" opacity="0">
+      <title>2026-08-21: 19 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -824,8 +824,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="126" y="132" width="8" height="8" rx="1.5"
-      fill="#724040" opacity="0">
-      <title>2026-08-21: 19 contributions</title>
+      fill="#683c3c" opacity="0">
+      <title>2026-08-22: 15 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -833,8 +833,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="126" y="142" width="8" height="8" rx="1.5"
-      fill="#683c3c" opacity="0">
-      <title>2026-08-22: 15 contributions</title>
+      fill="#6b3d3d" opacity="0">
+      <title>2026-08-23: 16 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -842,8 +842,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="136" y="82" width="8" height="8" rx="1.5"
-      fill="#6b3d3d" opacity="0">
-      <title>2026-08-23: 16 contributions</title>
+      fill="#4d3131" opacity="0">
+      <title>2026-08-24: 4 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -851,8 +851,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="92" width="8" height="8" rx="1.5"
-      fill="#4d3131" opacity="0">
-      <title>2026-08-24: 4 contributions</title>
+      fill="#a25353" opacity="0">
+      <title>2026-08-25: 38 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -860,8 +860,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="102" width="8" height="8" rx="1.5"
-      fill="#a25353" opacity="0">
-      <title>2026-08-25: 38 contributions</title>
+      fill="#523333" opacity="0">
+      <title>2026-08-26: 6 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -869,8 +869,8 @@
            <animate attributeName="y" from="110" to="102"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="112" width="8" height="8" rx="1.5"
-      fill="#523333" opacity="0">
-      <title>2026-08-26: 6 contributions</title>
+      fill="#6d3e3e" opacity="0">
+      <title>2026-08-27: 17 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -878,8 +878,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="122" width="8" height="8" rx="1.5"
-      fill="#6d3e3e" opacity="0">
-      <title>2026-08-27: 17 contributions</title>
+      fill="#754141" opacity="0">
+      <title>2026-08-28: 20 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -887,8 +887,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="132" width="8" height="8" rx="1.5"
-      fill="#754141" opacity="0">
-      <title>2026-08-28: 20 contributions</title>
+      fill="#724040" opacity="0">
+      <title>2026-08-29: 19 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -896,8 +896,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="142" width="8" height="8" rx="1.5"
-      fill="#724040" opacity="0">
-      <title>2026-08-29: 19 contributions</title>
+      fill="#291c1c" opacity="0">
+      <title>2026-08-30: 0 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
