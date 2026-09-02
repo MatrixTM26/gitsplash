@@ -66,7 +66,7 @@
       stroke="url(#grad-accent)" stroke-width="1" opacity="0.5"/>
     
     <g id="title-section" opacity="0">
-      <text x="20" y="36" font-size="18" dominant-baseline="middle">◈</text><text x="42" y="36" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start" dominant-baseline="middle" letter-spacing="0.5">3D Contribution Topography</text><text x="42" y="50" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle" opacity="0.8">10,085 contributions · 2026</text>
+      <text x="20" y="36" font-size="18" dominant-baseline="middle">◈</text><text x="42" y="36" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start" dominant-baseline="middle" letter-spacing="0.5">3D Contribution Topography</text><text x="42" y="50" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle" opacity="0.8">10,087 contributions · 2026</text>
       <line id="title-line" x1="16" y1="52" x2="479" y2="52"
         stroke="url(#grad-accent)" stroke-width="1" opacity="0.4"/>
       
@@ -1709,6 +1709,18 @@
         dur="0.3s" begin="0.54s" fill="freeze"/>
     </g>
     <g opacity="0"  style="cursor:pointer">
+      <title>2 contributions</title>
+      <polygon points="391.5,297.8 396.0,295.5 396.0,292.5 391.5,294.8" fill="#000000" stroke="#000000" stroke-width="0.3"/>
+      <polygon points="387.0,295.5 391.5,297.8 391.5,294.8 387.0,292.5" fill="#1c1212" stroke="#1c1212" stroke-width="0.3"/>
+      <polygon points="391.5,290.3 396.0,292.5 391.5,294.8 387.0,292.5" fill="#694444" stroke="#694444" stroke-width="0.3"/>
+      <animateTransform attributeName="transform" type="translate"
+        from="0 3" to="0 0"
+        dur="0.4s" begin="0.555s" fill="freeze" calcMode="spline"
+        keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
+       <animate attributeName="opacity" from="0" to="1"
+        dur="0.3s" begin="0.555s" fill="freeze"/>
+    </g>
+    <g opacity="0"  style="cursor:pointer">
       <title>7 contributions</title>
       <polygon points="238.5,216.8 243.0,214.5 243.0,211.5 238.5,213.8" fill="#0a0606" stroke="#0a0606" stroke-width="0.3"/>
       <polygon points="234.0,214.5 238.5,216.8 238.5,213.8 234.0,211.5" fill="#291919" stroke="#291919" stroke-width="0.3"/>
@@ -3013,9 +3025,9 @@
       width="10" height="10"
       rx="2" fill="#d69c5d" opacity="0.9"/><rect x="466" y="182"
       width="10" height="10"
-      rx="2" fill="#cbcb4d" opacity="0.9"/><text x="410" y="187" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">Less</text><text x="483" y="187" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">More</text><text x="446.5" y="200" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" opacity="0.6">max 189/day</text></g><g opacity="0"><text x="16" y="144" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="start" filter="url(#glow-filter)">⚑</text><text x="34" y="144" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">Current Streak</text><text x="34" y="158" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start">243d</text><animate attributeName="opacity" from="0" to="1"
+      rx="2" fill="#cbcb4d" opacity="0.9"/><text x="410" y="187" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">Less</text><text x="483" y="187" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">More</text><text x="446.5" y="200" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" opacity="0.6">max 189/day</text></g><g opacity="0"><text x="16" y="144" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="start" filter="url(#glow-filter)">⚑</text><text x="34" y="144" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">Current Streak</text><text x="34" y="158" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start">1d</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.6s" fill="freeze"/></g><g opacity="0"><text x="136" y="144" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="start" filter="url(#glow-filter)">◈</text><text x="154" y="144" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">Longest Streak</text><text x="154" y="158" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start">243d</text><animate attributeName="opacity" from="0" to="1"
-          dur="0.4s" begin="0.7s" fill="freeze"/></g><g opacity="0"><text x="256" y="144" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="start" filter="url(#glow-filter)">✦</text><text x="274" y="144" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">Total</text><text x="274" y="158" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start">10,085</text><animate attributeName="opacity" from="0" to="1"
+          dur="0.4s" begin="0.7s" fill="freeze"/></g><g opacity="0"><text x="256" y="144" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="start" filter="url(#glow-filter)">✦</text><text x="274" y="144" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">Total</text><text x="274" y="158" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start">10,087</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.8s" fill="freeze"/></g>
     </g>
     
