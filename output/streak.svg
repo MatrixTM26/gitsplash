@@ -75,15 +75,15 @@
       keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
     </g>
     <g transform="translate(0, 56)">
-      <g opacity="0"><rect x="16" y="4" width="149" height="64" rx="8" fill="#251d1d" stroke="#432d2d" stroke-width="0.5" opacity="0.85"/><text x="90.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#d6c85c" text-anchor="middle" dominant-baseline="middle">◎</text><text x="90.5" y="40" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="middle" dominant-baseline="middle">10,087</text><text x="90.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Total Contributions</text><animate attributeName="opacity" from="0" to="1"
+      <g opacity="0"><rect x="16" y="4" width="149" height="64" rx="8" fill="#251d1d" stroke="#432d2d" stroke-width="0.5" opacity="0.85"/><text x="90.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#d6c85c" text-anchor="middle" dominant-baseline="middle">◎</text><text x="90.5" y="40" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="middle" dominant-baseline="middle">10,065</text><text x="90.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Total Contributions</text><animate attributeName="opacity" from="0" to="1"
           dur="0.5s" begin="0.1s" fill="freeze" calcMode="spline"
-          keySplines="0.4 0 0.2 1" keyTimes="0;1"/></g><g opacity="0"><rect x="173" y="4" width="149" height="64" rx="8" fill="#3b2626" stroke="#e06c6c" stroke-width="1" opacity="0.85"/><text x="247.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="middle" dominant-baseline="middle" filter="url(#glow-filter)">⚑</text><text x="247.5" y="40" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e06c6c" text-anchor="middle" dominant-baseline="middle">1 days</text><text x="247.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Current Streak</text><rect x="173" y="4" width="149" height="64" rx="8"
+          keySplines="0.4 0 0.2 1" keyTimes="0;1"/></g><g opacity="0"><rect x="173" y="4" width="149" height="64" rx="8" fill="#3b2626" stroke="#e06c6c" stroke-width="1" opacity="0.85"/><text x="247.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="middle" dominant-baseline="middle" filter="url(#glow-filter)">⚑</text><text x="247.5" y="40" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e06c6c" text-anchor="middle" dominant-baseline="middle">245 days</text><text x="247.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Current Streak</text><rect x="173" y="4" width="149" height="64" rx="8"
           fill="none" stroke="#e06c6c" stroke-width="1" opacity="0">
           <animate attributeName="opacity" values="0;0.5;0"
             dur="2s" begin="0.7s" repeatCount="indefinite"/>
         </rect><animate attributeName="opacity" from="0" to="1"
           dur="0.5s" begin="0.2s" fill="freeze" calcMode="spline"
-          keySplines="0.4 0 0.2 1" keyTimes="0;1"/></g><g opacity="0"><rect x="330" y="4" width="149" height="64" rx="8" fill="#251d1d" stroke="#432d2d" stroke-width="0.5" opacity="0.85"/><text x="404.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#cbcb4d" text-anchor="middle" dominant-baseline="middle">★</text><text x="404.5" y="40" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="middle" dominant-baseline="middle">243 days</text><text x="404.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Longest Streak</text><animate attributeName="opacity" from="0" to="1"
+          keySplines="0.4 0 0.2 1" keyTimes="0;1"/></g><g opacity="0"><rect x="330" y="4" width="149" height="64" rx="8" fill="#251d1d" stroke="#432d2d" stroke-width="0.5" opacity="0.85"/><text x="404.5" y="20" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#cbcb4d" text-anchor="middle" dominant-baseline="middle">★</text><text x="404.5" y="40" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="middle" dominant-baseline="middle">245 days</text><text x="404.5" y="57" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" letter-spacing="0.2">Longest Streak</text><animate attributeName="opacity" from="0" to="1"
           dur="0.5s" begin="0.3s" fill="freeze" calcMode="spline"
           keySplines="0.4 0 0.2 1" keyTimes="0;1"/></g><g><rect x="16" y="82" width="8" height="8" rx="1.5"
       fill="#a75555" opacity="0">
@@ -689,8 +689,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.67s" fill="freeze"/>
     </rect><rect x="106" y="122" width="8" height="8" rx="1.5"
-      fill="#cdca50" opacity="0">
-      <title>2026-08-10: 177 contributions</title>
+      fill="#ceca51" opacity="0">
+      <title>2026-08-10: 173 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.67s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -707,8 +707,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.67s" fill="freeze"/>
     </rect><rect x="106" y="142" width="8" height="8" rx="1.5"
-      fill="#d3c958" opacity="0">
-      <title>2026-08-12: 142 contributions</title>
+      fill="#d4c959" opacity="0">
+      <title>2026-08-12: 140 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.67s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -725,8 +725,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.7s" fill="freeze"/>
     </rect><rect x="116" y="92" width="8" height="8" rx="1.5"
-      fill="#ceca51" opacity="0">
-      <title>2026-08-14: 173 contributions</title>
+      fill="#d0ca54" opacity="0">
+      <title>2026-08-14: 161 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.7s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -779,8 +779,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.7s" fill="freeze"/>
     </rect><rect x="126" y="82" width="8" height="8" rx="1.5"
-      fill="#894949" opacity="0">
-      <title>2026-08-20: 28 contributions</title>
+      fill="#844747" opacity="0">
+      <title>2026-08-20: 26 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -788,8 +788,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="126" y="92" width="8" height="8" rx="1.5"
-      fill="#724040" opacity="0">
-      <title>2026-08-21: 19 contributions</title>
+      fill="#703f3f" opacity="0">
+      <title>2026-08-21: 18 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -824,8 +824,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="126" y="132" width="8" height="8" rx="1.5"
-      fill="#a25353" opacity="0">
-      <title>2026-08-25: 38 contributions</title>
+      fill="#9f5252" opacity="0">
+      <title>2026-08-25: 37 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.73s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -842,8 +842,8 @@
            <animate attributeName="y" from="150" to="142"
             dur="0.3s" begin="0.73s" fill="freeze"/>
     </rect><rect x="136" y="82" width="8" height="8" rx="1.5"
-      fill="#6d3e3e" opacity="0">
-      <title>2026-08-27: 17 contributions</title>
+      fill="#6b3d3d" opacity="0">
+      <title>2026-08-27: 16 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -851,8 +851,8 @@
            <animate attributeName="y" from="90" to="82"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="92" width="8" height="8" rx="1.5"
-      fill="#754141" opacity="0">
-      <title>2026-08-28: 20 contributions</title>
+      fill="#724040" opacity="0">
+      <title>2026-08-28: 19 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -860,8 +860,8 @@
            <animate attributeName="y" from="100" to="92"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="102" width="8" height="8" rx="1.5"
-      fill="#724040" opacity="0">
-      <title>2026-08-29: 19 contributions</title>
+      fill="#6d3e3e" opacity="0">
+      <title>2026-08-29: 17 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -878,8 +878,8 @@
            <animate attributeName="y" from="120" to="112"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="122" width="8" height="8" rx="1.5"
-      fill="#523333" opacity="0">
-      <title>2026-08-31: 6 contributions</title>
+      fill="#4f3232" opacity="0">
+      <title>2026-08-31: 5 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -887,8 +887,8 @@
            <animate attributeName="y" from="130" to="122"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="132" width="8" height="8" rx="1.5"
-      fill="#291c1c" opacity="0">
-      <title>2026-09-01: 0 contributions</title>
+      fill="#452e2e" opacity="0">
+      <title>2026-09-01: 1 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -896,8 +896,8 @@
            <animate attributeName="y" from="140" to="132"
             dur="0.3s" begin="0.76s" fill="freeze"/>
     </rect><rect x="136" y="142" width="8" height="8" rx="1.5"
-      fill="#482f2f" opacity="0">
-      <title>2026-09-02: 2 contributions</title>
+      fill="#523333" opacity="0">
+      <title>2026-09-02: 6 contributions</title>
       <animate attributeName="opacity" from="0" to="0.9"
             dur="0.3s" begin="0.76s" fill="freeze"/>
            <animate attributeName="height" from="0" to="8"
@@ -931,7 +931,7 @@
           keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"
           keyTimes="0;0.25;0.5;0.75;1"/>
     </ellipse>
-      <text x="435" y="85" font-size="20" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" filter="url(#drop-shadow)">1</text>
+      <text x="435" y="85" font-size="20" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#ffffff" text-anchor="middle" dominant-baseline="middle" filter="url(#drop-shadow)">245</text>
       <text x="435" y="123" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" opacity="0.8">day streak</text>
       
     <animate attributeName="opacity" from="0" to="1"
