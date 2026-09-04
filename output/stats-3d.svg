@@ -893,6 +893,18 @@
         dur="0.3s" begin="0.56s" fill="freeze"/>
     </g>
     <g opacity="0"  style="cursor:pointer">
+      <title>0 contributions</title>
+      
+      
+      <polygon points="382.5,296.8 387.0,299.0 382.5,301.3 378.0,299.0" fill="#2d1f1f" stroke="#2d1f1f" stroke-width="0.3"/>
+      <animateTransform attributeName="transform" type="translate"
+        from="0 1" to="0 0"
+        dur="0.4s" begin="0.5750000000000001s" fill="freeze" calcMode="spline"
+        keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
+       <animate attributeName="opacity" from="0" to="1"
+        dur="0.3s" begin="0.5750000000000001s" fill="freeze"/>
+    </g>
+    <g opacity="0"  style="cursor:pointer">
       <title>10 contributions</title>
       <polygon points="234.0,223.5 238.5,221.3 238.5,218.3 234.0,220.5" fill="#130b0b" stroke="#130b0b" stroke-width="0.3"/>
       <polygon points="229.5,221.3 234.0,223.5 234.0,220.5 229.5,218.3" fill="#341e1e" stroke="#341e1e" stroke-width="0.3"/>
