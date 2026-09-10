@@ -78,9 +78,9 @@
       
     <g>
       <g opacity="0">
-        <path d="M 101.19992000159999 9.011999600005332 A 60 60 0 1 1 75.73726257589442 123.87549154849464 L 84.6335996313998 103.75447798071326 A 38 38 0 1 0 100.75994933434666 31.007599746670046 Z"
+        <path d="M 101.19992000159999 9.011999600005332 A 60 60 0 1 1 75.7556116189586 123.88360075677639 L 84.64522069200711 103.75961381262505 A 38 38 0 1 0 100.75994933434666 31.007599746670046 Z"
             fill="#555555" opacity="0.3"/>
-        <path d="M 101.19992000159999 5.011999600005332 A 60 60 0 1 1 75.73726257589442 119.87549154849464 L 84.6335996313998 99.75447798071326 A 38 38 0 1 0 100.75994933434666 27.007599746670046 Z" fill="#555555" 
+        <path d="M 101.19992000159999 5.011999600005332 A 60 60 0 1 1 75.7556116189586 119.88360075677639 L 84.64522069200711 99.75961381262505 A 38 38 0 1 0 100.75994933434666 27.007599746670046 Z" fill="#555555" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -90,9 +90,9 @@
         </path>
       </g>
       <g opacity="0">
-        <path d="M 73.56223580775783 122.86134629319432 A 60 60 0 0 1 52.92607982834382 31.79723075263695 L 70.18651722461776 45.438246143336734 A 38 38 0 0 0 83.25608267824663 103.11218598568973 Z"
+        <path d="M 73.58024589170472 122.87018278098947 A 60 60 0 0 1 52.907308211703906 31.820995439192437 L 70.17462853407915 45.453297111488546 A 38 38 0 0 0 83.26748906474633 103.11778242796001 Z"
             fill="#f1e05a" opacity="0.3"/>
-        <path d="M 73.56223580775783 118.86134629319432 A 60 60 0 0 1 52.92607982834382 27.79723075263695 L 70.18651722461776 41.438246143336734 A 38 38 0 0 0 83.25608267824663 99.11218598568973 Z" fill="#f1e05a" 
+        <path d="M 73.58024589170472 118.87018278098947 A 60 60 0 0 1 52.907308211703906 27.820995439192437 L 70.17462853407915 41.453297111488546 A 38 38 0 0 0 83.26748906474633 99.11778242796001 Z" fill="#f1e05a" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -103,7 +103,7 @@
       </g>
       <g opacity="0">
         
-        <path d="M 54.45144791563183 25.944534274731787 A 60 60 0 0 1 81.85955134140183 7.808006482858424 L 88.51104918288783 28.77840410581034 A 38 38 0 0 0 71.15258367990016 40.26487170733013 Z" fill="#6E4C13" 
+        <path d="M 54.43174098029051 25.96752928762176 A 60 60 0 0 1 81.82750808681426 7.81818000740796 L 88.49075512164903 28.784847338025045 A 38 38 0 0 0 71.14010262085066 40.27943521549378 Z" fill="#6E4C13" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -114,7 +114,7 @@
       </g>
       <g opacity="0">
         
-        <path d="M 84.16113150700745 7.12832951381403 A 60 60 0 0 1 92.82761420915688 5.430235168608299 L 95.45748899913269 27.27248227345192 A 38 38 0 0 0 89.96871662110472 28.347942025415556 Z" fill="#b07219" 
+        <path d="M 84.12870705113272 7.1372135122129166 A 60 60 0 0 1 92.79319421030658 5.434389532972624 L 95.4356896665275 27.275113370882664 A 38 38 0 0 0 89.94818113238406 28.353568557734846 Z" fill="#b07219" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -125,7 +125,7 @@
       </g>
       <g opacity="0">
         
-        <path d="M 95.21550658603755 5.191065694398553 A 60 60 0 0 1 96.441490890873 5.1056178517529105 L 97.74627756421957 27.066891306110172 A 38 38 0 0 0 96.96982083782378 27.12100827311908 Z" fill="#00ADD8" 
+        <path d="M 95.18094798925016 5.193840302877767 A 60 60 0 0 1 96.40654419847854 5.107704373579807 L 97.72414465903641 27.06821276993388 A 38 38 0 0 0 96.94793372652511 27.12276552515592 Z" fill="#00ADD8" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -136,7 +136,7 @@
       </g>
       <g opacity="0">
         
-        <path d="M 98.8394737822344 5.01122455910707 A 60 60 0 0 1 97.42670975918438 5.055207254203282 L 98.3702495141501 27.03496459432874 A 38 38 0 0 0 99.2650000620818 27.007108887434477 Z" fill="#4F5D95" 
+        <path d="M 98.8044716048478 5.011911916978178 A 60 60 0 0 1 97.39164138314744 5.056722934711928 L 98.34803954266005 27.035924525317554 A 38 38 0 0 0 99.24283201640361 27.00754421408618 Z" fill="#4F5D95" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -147,18 +147,18 @@
       </g>
       <g opacity="0">
         
-        <path d="M 99.82592046676751 5.000252531230522 A 60 60 0 0 1 98.34218441805078 5.022907310405195 L 98.95005013143215 27.014507963256627 A 38 38 0 0 0 99.88974962895276 27.000159936445996 Z" fill="#3572A5" 
+        <path d="M 99.7908195306366 5.000364638347705 A 60 60 0 0 1 98.34222720393326 5.022906127783912 L 98.95007722915774 27.01450721426314 A 38 38 0 0 0 99.86751903606985 27.00023093762021 Z" fill="#3572A5" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
-          <title>Python: 0.2%</title>
+          <title>Python: 0.3%</title>
           <animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.30000000000000004s" fill="freeze"/>
         </path>
       </g>
       <g opacity="0">
         
-        <path d="M 100.74195449679898 5.004587646015132 A 60 60 0 0 1 98.80007999840004 5.011999600005332 L 99.24005066565336 27.007599746670046 A 38 38 0 0 0 100.46990451463935 27.00290550914292 Z" fill="#000080" 
+        <path d="M 100.74199729574958 5.004588175318773 A 60 60 0 0 1 98.80007999840014 5.011999600005325 L 99.24005066565341 27.00759974667004 A 38 38 0 0 0 100.4699316206414 27.002905844368556 Z" fill="#000080" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -176,10 +176,10 @@
           dur="0.4s" begin="0.4s" fill="freeze"/></g><g opacity="0"><circle cx="341" cy="29" r="5" fill="#b07219"/><text x="351" y="30" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Java</text><text x="477" y="30" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">3.0%</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.45s" fill="freeze"/></g><g opacity="0"><circle cx="191" cy="47" r="5" fill="#00ADD8"/><text x="201" y="48" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Go</text><text x="327" y="48" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">1.0%</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.5s" fill="freeze"/></g><g opacity="0"><circle cx="341" cy="47" r="5" fill="#4F5D95"/><text x="351" y="48" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">PHP</text><text x="477" y="48" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">0.3%</text><animate attributeName="opacity" from="0" to="1"
-          dur="0.4s" begin="0.55s" fill="freeze"/></g><g opacity="0"><circle cx="191" cy="65" r="5" fill="#3572A5"/><text x="201" y="66" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Python</text><text x="327" y="66" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">0.2%</text><animate attributeName="opacity" from="0" to="1"
+          dur="0.4s" begin="0.55s" fill="freeze"/></g><g opacity="0"><circle cx="191" cy="65" r="5" fill="#3572A5"/><text x="201" y="66" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Python</text><text x="327" y="66" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">0.3%</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.6000000000000001s" fill="freeze"/></g><g opacity="0"><circle cx="341" cy="65" r="5" fill="#000080"/><text x="351" y="66" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Lua</text><text x="477" y="66" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">0.1%</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.65s" fill="freeze"/></g></g>
     </g>
-    <text x="247.5" y="190" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" opacity="0.5">8 languages · 10,700 total commits</text>
+    <text x="247.5" y="190" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" opacity="0.5">8 languages · 10,701 total commits</text>
   </g>
 </svg>
