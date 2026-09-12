@@ -66,7 +66,7 @@
       stroke="url(#grad-accent)" stroke-width="1" opacity="0.5"/>
     
     <g id="title-section" opacity="0">
-      <text x="20" y="36" font-size="18" dominant-baseline="middle">◈</text><text x="42" y="36" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start" dominant-baseline="middle" letter-spacing="0.5">3D Contribution Topography</text><text x="42" y="50" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle" opacity="0.8">11,042 contributions · 2026</text>
+      <text x="20" y="36" font-size="18" dominant-baseline="middle">◈</text><text x="42" y="36" font-size="16" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start" dominant-baseline="middle" letter-spacing="0.5">3D Contribution Topography</text><text x="42" y="50" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle" opacity="0.8">11,053 contributions · 2026</text>
       <line id="title-line" x1="16" y1="52" x2="479" y2="52"
         stroke="url(#grad-accent)" stroke-width="1" opacity="0.4"/>
       
@@ -485,16 +485,28 @@
         dur="0.3s" begin="0.5700000000000001s" fill="freeze"/>
     </g>
     <g opacity="0"  style="cursor:pointer">
-      <title>27 contributions</title>
-      <polygon points="378.0,304.5 382.5,302.3 382.5,298.5 378.0,300.7" fill="#3f2121" stroke="#3f2121" stroke-width="0.3"/>
-      <polygon points="373.5,302.3 378.0,304.5 378.0,300.7 373.5,298.5" fill="#613333" stroke="#613333" stroke-width="0.3"/>
-      <polygon points="378.0,296.2 382.5,298.5 378.0,300.7 373.5,298.5" fill="#ae6565" stroke="#ae6565" stroke-width="0.3"/>
+      <title>28 contributions</title>
+      <polygon points="378.0,304.5 382.5,302.3 382.5,298.3 378.0,300.6" fill="#432323" stroke="#432323" stroke-width="0.3"/>
+      <polygon points="373.5,302.3 378.0,304.5 378.0,300.6 373.5,298.3" fill="#643535" stroke="#643535" stroke-width="0.3"/>
+      <polygon points="378.0,296.1 382.5,298.3 378.0,300.6 373.5,298.3" fill="#b06969" stroke="#b06969" stroke-width="0.3"/>
       <animateTransform attributeName="transform" type="translate"
-        from="0 3.7850467289719623" to="0 0"
+        from="0 3.9252336448598126" to="0 0"
         dur="0.4s" begin="0.585s" fill="freeze" calcMode="spline"
         keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
        <animate attributeName="opacity" from="0" to="1"
         dur="0.3s" begin="0.585s" fill="freeze"/>
+    </g>
+    <g opacity="0"  style="cursor:pointer">
+      <title>8 contributions</title>
+      <polygon points="382.5,306.8 387.0,304.5 387.0,301.5 382.5,303.8" fill="#0a0606" stroke="#0a0606" stroke-width="0.3"/>
+      <polygon points="378.0,304.5 382.5,306.8 382.5,303.8 378.0,301.5" fill="#291919" stroke="#291919" stroke-width="0.3"/>
+      <polygon points="382.5,299.3 387.0,301.5 382.5,303.8 378.0,301.5" fill="#794949" stroke="#794949" stroke-width="0.3"/>
+      <animateTransform attributeName="transform" type="translate"
+        from="0 3" to="0 0"
+        dur="0.4s" begin="0.6000000000000001s" fill="freeze" calcMode="spline"
+        keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
+       <animate attributeName="opacity" from="0" to="1"
+        dur="0.3s" begin="0.6000000000000001s" fill="freeze"/>
     </g>
     <g opacity="0"  style="cursor:pointer">
       <title>8 contributions</title>
@@ -905,12 +917,12 @@
         dur="0.3s" begin="0.56s" fill="freeze"/>
     </g>
     <g opacity="0"  style="cursor:pointer">
-      <title>30 contributions</title>
-      <polygon points="382.5,302.3 387.0,300.0 387.0,295.8 382.5,298.0" fill="#472424" stroke="#472424" stroke-width="0.3"/>
-      <polygon points="378.0,300.0 382.5,302.3 382.5,298.0 378.0,295.8" fill="#683636" stroke="#683636" stroke-width="0.3"/>
-      <polygon points="382.5,293.5 387.0,295.8 382.5,298.0 378.0,295.8" fill="#b36b6b" stroke="#b36b6b" stroke-width="0.3"/>
+      <title>31 contributions</title>
+      <polygon points="382.5,302.3 387.0,300.0 387.0,295.7 382.5,297.9" fill="#4a2626" stroke="#4a2626" stroke-width="0.3"/>
+      <polygon points="378.0,300.0 382.5,302.3 382.5,297.9 378.0,295.7" fill="#6c3737" stroke="#6c3737" stroke-width="0.3"/>
+      <polygon points="382.5,293.4 387.0,295.7 382.5,297.9 378.0,295.7" fill="#b46e6e" stroke="#b46e6e" stroke-width="0.3"/>
       <animateTransform attributeName="transform" type="translate"
-        from="0 4.205607476635514" to="0 0"
+        from="0 4.345794392523364" to="0 0"
         dur="0.4s" begin="0.5750000000000001s" fill="freeze" calcMode="spline"
         keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
        <animate attributeName="opacity" from="0" to="1"
@@ -2669,12 +2681,12 @@
         dur="0.3s" begin="0.535s" fill="freeze"/>
     </g>
     <g opacity="0"  style="cursor:pointer">
-      <title>28 contributions</title>
-      <polygon points="405.0,295.5 409.5,293.3 409.5,289.3 405.0,291.6" fill="#432323" stroke="#432323" stroke-width="0.3"/>
-      <polygon points="400.5,293.3 405.0,295.5 405.0,291.6 400.5,289.3" fill="#643535" stroke="#643535" stroke-width="0.3"/>
-      <polygon points="405.0,287.1 409.5,289.3 405.0,291.6 400.5,289.3" fill="#b06969" stroke="#b06969" stroke-width="0.3"/>
+      <title>29 contributions</title>
+      <polygon points="405.0,295.5 409.5,293.3 409.5,289.2 405.0,291.4" fill="#432323" stroke="#432323" stroke-width="0.3"/>
+      <polygon points="400.5,293.3 405.0,295.5 405.0,291.4 400.5,289.2" fill="#653434" stroke="#653434" stroke-width="0.3"/>
+      <polygon points="405.0,286.9 409.5,289.2 405.0,291.4 400.5,289.2" fill="#b16868" stroke="#b16868" stroke-width="0.3"/>
       <animateTransform attributeName="transform" type="translate"
-        from="0 3.9252336448598126" to="0 0"
+        from="0 4.065420560747663" to="0 0"
         dur="0.4s" begin="0.55s" fill="freeze" calcMode="spline"
         keySplines="0.34 1.56 0.64 1" keyTimes="0;1"/>
        <animate attributeName="opacity" from="0" to="1"
@@ -3135,7 +3147,7 @@
       width="10" height="10"
       rx="2" fill="#cbcb4d" opacity="0.9"/><text x="410" y="187" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">Less</text><text x="483" y="187" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">More</text><text x="446.5" y="200" font-size="8" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" opacity="0.6">max 214/day</text></g><g opacity="0"><text x="16" y="144" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="start" filter="url(#glow-filter)">⚑</text><text x="34" y="144" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">Current Streak</text><text x="34" y="158" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start">1d</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.6s" fill="freeze"/></g><g opacity="0"><text x="136" y="144" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="start" filter="url(#glow-filter)">◈</text><text x="154" y="144" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">Longest Streak</text><text x="154" y="158" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start">251d</text><animate attributeName="opacity" from="0" to="1"
-          dur="0.4s" begin="0.7s" fill="freeze"/></g><g opacity="0"><text x="256" y="144" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="start" filter="url(#glow-filter)">✦</text><text x="274" y="144" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">Total</text><text x="274" y="158" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start">11,042</text><animate attributeName="opacity" from="0" to="1"
+          dur="0.4s" begin="0.7s" fill="freeze"/></g><g opacity="0"><text x="256" y="144" font-size="12" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e06c6c" text-anchor="start" filter="url(#glow-filter)">✦</text><text x="274" y="144" font-size="9" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="start" dominant-baseline="middle">Total</text><text x="274" y="158" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="start">11,053</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.8s" fill="freeze"/></g>
     </g>
     
