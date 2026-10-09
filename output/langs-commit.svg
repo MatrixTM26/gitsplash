@@ -14,7 +14,7 @@
       />
     </linearGradient>
     <linearGradient id="grad-accent" x1="0.5" y1="0" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0%" stop-color="#e06c6c"/><stop offset="50%" stop-color="#d6c85c"/><stop offset="100%" stop-color="#cbcb4d"/>
+      <stop offset="0%" stop-color="#e06c6c"/><stop offset="50%" stop-color="#d6c85c"/><stop offset="100%" stop-color="#4d4dcb"/>
       <animateTransform
         attributeName="gradientTransform"
         type="rotate"
@@ -78,53 +78,54 @@
       
     <g>
       <g opacity="0">
-        <path d="M 101.19992000159999 9.011999600005332 A 60 60 0 1 1 62.23375747478809 115.6230728880763 L 76.08137973403245 98.52794616244832 A 38 38 0 1 0 100.75994933434666 31.007599746670046 Z"
+        <path d="M 101.19992000159999 9.011999600005332 A 60 60 0 1 1 66.88855719209383 119.03631036735982 L 79.02941955499276 100.68966323266122 A 38 38 0 1 0 100.75994933434666 31.007599746670046 Z"
             fill="#555555" opacity="0.3"/>
-        <path d="M 101.19992000159999 5.011999600005332 A 60 60 0 1 1 62.23375747478809 111.6230728880763 L 76.08137973403245 94.52794616244832 A 38 38 0 1 0 100.75994933434666 27.007599746670046 Z" fill="#555555" 
+        <path d="M 101.19992000159999 5.011999600005332 A 60 60 0 1 1 66.88855719209383 115.03631036735982 L 79.02941955499276 96.68966323266122 A 38 38 0 1 0 100.75994933434666 27.007599746670046 Z" fill="#555555" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
-          <title>C: 61.2%</title>
+          <title>C: 59.6%</title>
           <animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0s" fill="freeze"/>
         </path>
       </g>
       <g opacity="0">
-        
-        <path d="M 60.399540798094804 110.07553250931421 A 60 60 0 0 1 71.04441568429375 12.449318397036691 L 81.66146326671938 31.71790165145657 A 38 38 0 0 0 74.91970917212672 93.547837255899 Z" fill="#f1e05a" 
+        <path d="M 64.91412407789477 117.67218210414073 A 60 60 0 0 1 63.74272771893789 21.19403586646405 L 77.03706088866066 38.722889382093896 A 38 38 0 0 0 77.77894524933336 99.82571533262247 Z"
+            fill="#f1e05a" opacity="0.3"/>
+        <path d="M 64.91412407789477 113.67218210414073 A 60 60 0 0 1 63.74272771893789 17.19403586646405 L 77.03706088866066 34.722889382093896 A 38 38 0 0 0 77.77894524933336 95.82571533262247 Z" fill="#f1e05a" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
-          <title>JavaScript: 31.1%</title>
+          <title>JavaScript: 30.4%</title>
           <animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.05s" fill="freeze"/>
         </path>
       </g>
       <g opacity="0">
         
-        <path d="M 73.16904383167164 11.33343879944195 A 60 60 0 0 1 82.81438670663361 7.513873884815752 L 89.11577824753462 28.59212012704998 A 38 38 0 0 0 83.00706109339204 31.011177906313236 Z" fill="#b07219" 
+        <path d="M 65.6834583453768 15.782371360796844 A 60 60 0 0 1 80.49755236130794 8.258000245848976 L 87.64844982882836 29.06340015570435 A 38 38 0 0 0 78.26619028540532 33.82883519517134 Z" fill="#000080" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
-          <title>Java: 3.4%</title>
+          <title>Lua: 5.1%</title>
           <animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.1s" fill="freeze"/>
         </path>
       </g>
       <g opacity="0">
         
-        <path d="M 85.12696527254903 6.87261542099079 A 60 60 0 0 1 92.46425805958285 5.475109463288909 L 95.2273634377358 27.300902660082976 A 38 38 0 0 0 90.58041133928106 28.1859897666275 Z" fill="#000080" 
+        <path d="M 82.78222702985536 7.523497897414138 A 60 60 0 0 1 92.62221163086393 5.455325689191646 L 95.32740069954716 27.288372936488045 A 38 38 0 0 0 89.09541045224174 28.598215335028954 Z" fill="#b07219" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
-          <title>Lua: 2.6%</title>
+          <title>Java: 3.3%</title>
           <animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.15000000000000002s" fill="freeze"/>
         </path>
       </g>
       <g opacity="0">
         
-        <path d="M 94.85064658946088 5.22137372393567 A 60 60 0 0 1 96.34321867820837 5.111537418592924 L 97.68403849619864 27.07064036510885 A 38 38 0 0 0 96.73874283999189 27.14020335849259 Z" fill="#00ADD8" 
+        <path d="M 95.00926495468627 5.207922232895456 A 60 60 0 0 1 96.4046966027083 5.107815255398954 L 97.72297451504859 27.068282995086 A 38 38 0 0 0 96.83920113796798 27.131684080833786 Z" fill="#00ADD8" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -135,7 +136,7 @@
       </g>
       <g opacity="0">
         
-        <path d="M 98.74104345732151 5.013209550571496 A 60 60 0 0 1 97.40104708764922 5.056314396265364 L 98.3539964888445 27.035665784301393 A 38 38 0 0 0 99.20266085630362 27.00836604869528 Z" fill="#4F5D95" 
+        <path d="M 98.802621052867 5.0119488259789975 A 60 60 0 0 1 97.43607383297461 5.054806009071569 L 98.37618009421726 27.034710472411994 A 38 38 0 0 0 99.2416600001491 27.007567589786696 Z" fill="#4F5D95" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -146,7 +147,7 @@
       </g>
       <g opacity="0">
         
-        <path d="M 99.80023404875845 5.000332554548898 A 60 60 0 0 1 98.42186679550531 5.020757794142888 L 99.00051563715336 27.013146602957164 A 38 38 0 0 0 99.87348156421369 27.000210617880967 Z" fill="#3572A5" 
+        <path d="M 99.83529309582318 5.000226070128257 A 60 60 0 0 1 98.43133899895001 5.020509316402283 L 99.006514699335 27.01298923372145 A 38 38 0 0 0 99.89568562735468 27.000143177747894 Z" fill="#3572A5" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -157,7 +158,7 @@
       </g>
       <g opacity="0">
         
-        <path d="M 100.82165909457471 5.005626294357384 A 60 60 0 0 1 98.80007999840004 5.011999600005332 L 99.24005066565336 27.007599746670046 A 38 38 0 0 0 100.52038409323065 27.003563319759678 Z" fill="#6E4C13" 
+        <path d="M 100.83113365772638 5.0057568024815 A 60 60 0 0 1 98.80007999839998 5.011999600005332 L 99.24005066565331 27.007599746670046 A 38 38 0 0 0 100.52638464989337 27.00364597490495 Z" fill="#6E4C13" 
       style="cursor:pointer"
       onmouseenter="this.style.opacity='0.85'"
       onmouseleave="this.style.opacity='1'">
@@ -168,17 +169,17 @@
       </g></g>
     <g>
     <text x="100" y="57" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e6edf3" text-anchor="middle" dominant-baseline="middle">C</text>
-    <text x="100" y="73" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e06c6c" text-anchor="middle" dominant-baseline="middle">61.1%</text></g>
-    <g><g opacity="0"><circle cx="191" cy="11" r="5" fill="#555555"/><text x="201" y="12" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">C</text><text x="327" y="12" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">61.2%</text><animate attributeName="opacity" from="0" to="1"
-          dur="0.4s" begin="0.3s" fill="freeze"/></g><g opacity="0"><circle cx="341" cy="11" r="5" fill="#f1e05a"/><text x="351" y="12" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">JavaScript</text><text x="477" y="12" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">31.1%</text><animate attributeName="opacity" from="0" to="1"
-          dur="0.4s" begin="0.35s" fill="freeze"/></g><g opacity="0"><circle cx="191" cy="29" r="5" fill="#b07219"/><text x="201" y="30" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Java</text><text x="327" y="30" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">3.4%</text><animate attributeName="opacity" from="0" to="1"
-          dur="0.4s" begin="0.4s" fill="freeze"/></g><g opacity="0"><circle cx="341" cy="29" r="5" fill="#000080"/><text x="351" y="30" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Lua</text><text x="477" y="30" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">2.6%</text><animate attributeName="opacity" from="0" to="1"
+    <text x="100" y="73" font-size="14" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-weight="700" fill="#e06c6c" text-anchor="middle" dominant-baseline="middle">59.6%</text></g>
+    <g><g opacity="0"><circle cx="191" cy="11" r="5" fill="#555555"/><text x="201" y="12" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">C</text><text x="327" y="12" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">59.6%</text><animate attributeName="opacity" from="0" to="1"
+          dur="0.4s" begin="0.3s" fill="freeze"/></g><g opacity="0"><circle cx="341" cy="11" r="5" fill="#f1e05a"/><text x="351" y="12" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">JavaScript</text><text x="477" y="12" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">30.4%</text><animate attributeName="opacity" from="0" to="1"
+          dur="0.4s" begin="0.35s" fill="freeze"/></g><g opacity="0"><circle cx="191" cy="29" r="5" fill="#000080"/><text x="201" y="30" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Lua</text><text x="327" y="30" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">5.1%</text><animate attributeName="opacity" from="0" to="1"
+          dur="0.4s" begin="0.4s" fill="freeze"/></g><g opacity="0"><circle cx="341" cy="29" r="5" fill="#b07219"/><text x="351" y="30" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Java</text><text x="477" y="30" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">3.3%</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.45s" fill="freeze"/></g><g opacity="0"><circle cx="191" cy="47" r="5" fill="#00ADD8"/><text x="201" y="48" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Go</text><text x="327" y="48" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">1.0%</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.5s" fill="freeze"/></g><g opacity="0"><circle cx="341" cy="47" r="5" fill="#4F5D95"/><text x="351" y="48" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">PHP</text><text x="477" y="48" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">0.3%</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.55s" fill="freeze"/></g><g opacity="0"><circle cx="191" cy="65" r="5" fill="#3572A5"/><text x="201" y="66" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Python</text><text x="327" y="66" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">0.3%</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.6000000000000001s" fill="freeze"/></g><g opacity="0"><circle cx="341" cy="65" r="5" fill="#6E4C13"/><text x="351" y="66" font-size="11" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#e6edf3" text-anchor="start" dominant-baseline="middle">Assembly</text><text x="477" y="66" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="end" dominant-baseline="middle">0.1%</text><animate attributeName="opacity" from="0" to="1"
           dur="0.4s" begin="0.65s" fill="freeze"/></g></g>
     </g>
-    <text x="247.5" y="190" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" opacity="0.5">8 languages · 9,965 total commits</text>
+    <text x="247.5" y="190" font-size="10" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" fill="#9d7b7b" text-anchor="middle" opacity="0.5">8 languages · 10,221 total commits</text>
   </g>
 </svg>
